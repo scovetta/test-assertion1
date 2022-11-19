@@ -1,0 +1,33 @@
+{
+  "_type": "https://in-toto.io/Statement/v0.1",
+  "predicate": {
+    "content": {
+      "security_advisories": {}
+    },
+    "evidence": {
+      "_type": "https://github.com/ossf/alpha-omega/types/evidence/url/v0.1",
+      "content": {
+        "output": "{\"package\":{\"system\":\"NPM\",\"name\":\"normalize-wheel\"},\"owners\":[],\"version\":{\"version\":\"1.0.1\",\"symbolicVersions\":[\"latest\"],\"createdAt\":1466114105,\"refreshedAt\":1658367068,\"isDefault\":true,\"description\":\"Mouse wheel normalization across multiple multiple browsers.\",\"licenses\":[\"BSD-3-Clause\"],\"dependentCount\":12192,\"dependentCountDirect\":1472,\"dependentCountIndirect\":10757,\"links\":{\"origins\":[\"https://www.npmjs.com/package/normalize-wheel/v/1.0.1\"]},\"projects\":[],\"advisories\":[],\"relatedPackages\":{}},\"defaultVersion\":\"1.0.1\"}"
+      },
+      "reproducibility": "temporal",
+      "url": "https://deps.dev/_/s/npm/p/normalize-wheel/v/1.0.1"
+    },
+    "generator": {
+      "name": "openssf.omega.security_advisories",
+      "version": "0.1.0"
+    },
+    "operational": {
+      "environment": {
+        "hostname": "scovetta-xps",
+        "machine_identifier": "00000000-0000-0000-0000-cc96e5042f66"
+      },
+      "execution_start": "2022-11-18T22:08:19.662617Z",
+      "execution_stop": "2022-11-18T22:08:19.924706Z"
+    }
+  },
+  "predicateType": "https://github.com/ossf/alpha-omega/v0.1",
+  "subject": {
+    "purl": "pkg:npm/normalize-wheel",
+    "type": "https://github.com/ossf/alpha-omega/subject/package_url/v0.1"
+  }
+}

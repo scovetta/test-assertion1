@@ -1,0 +1,33 @@
+{
+  "_type": "https://in-toto.io/Statement/v0.1",
+  "predicate": {
+    "content": {
+      "security_advisories": {}
+    },
+    "evidence": {
+      "_type": "https://github.com/ossf/alpha-omega/types/evidence/url/v0.1",
+      "content": {
+        "output": "{\"package\":{\"system\":\"NPM\",\"name\":\"tape\"},\"owners\":[],\"version\":{\"version\":\"5.6.1\",\"symbolicVersions\":[\"latest\"],\"createdAt\":1663630673,\"refreshedAt\":1663630958,\"isDefault\":true,\"description\":\"tap-producing test harness for node and browsers\",\"licenses\":[\"MIT\"],\"dependentCount\":288,\"dependentCountDirect\":159,\"dependentCountIndirect\":132,\"links\":{\"origins\":[\"https://www.npmjs.com/package/tape/v/5.6.1\"],\"homepage\":\"https://github.com/ljharb/tape\",\"issues\":\"https://github.com/ljharb/tape/issues\",\"repo\":\"https://github.com/ljharb/tape\"},\"projects\":[{\"type\":\"GITHUB\",\"name\":\"ljharb/tape\",\"observedAt\":1668680341,\"issues\":47,\"forks\":330,\"stars\":5679,\"description\":\"tap-producing test harness for node and browsers\",\"license\":\"MIT\",\"link\":\"https://github.com/ljharb/tape\"}],\"advisories\":[],\"relatedPackages\":{}},\"defaultVersion\":\"5.6.1\"}"
+      },
+      "reproducibility": "temporal",
+      "url": "https://deps.dev/_/s/npm/p/tape/v/5.6.1"
+    },
+    "generator": {
+      "name": "openssf.omega.security_advisories",
+      "version": "0.1.0"
+    },
+    "operational": {
+      "environment": {
+        "hostname": "scovetta-xps",
+        "machine_identifier": "00000000-0000-0000-0000-cc96e5042f66"
+      },
+      "execution_start": "2022-11-18T22:05:49.272822Z",
+      "execution_stop": "2022-11-18T22:05:49.561340Z"
+    }
+  },
+  "predicateType": "https://github.com/ossf/alpha-omega/v0.1",
+  "subject": {
+    "purl": "pkg:npm/tape",
+    "type": "https://github.com/ossf/alpha-omega/subject/package_url/v0.1"
+  }
+}

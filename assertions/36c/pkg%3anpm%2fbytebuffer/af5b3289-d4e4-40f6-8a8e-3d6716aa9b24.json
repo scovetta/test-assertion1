@@ -1,0 +1,33 @@
+{
+  "_type": "https://in-toto.io/Statement/v0.1",
+  "predicate": {
+    "content": {
+      "security_advisories": {}
+    },
+    "evidence": {
+      "_type": "https://github.com/ossf/alpha-omega/types/evidence/url/v0.1",
+      "content": {
+        "output": "{\"package\":{\"system\":\"NPM\",\"name\":\"bytebuffer\"},\"owners\":[],\"version\":{\"version\":\"5.0.1\",\"symbolicVersions\":[\"latest\"],\"createdAt\":1455285589,\"refreshedAt\":1655599843,\"isDefault\":true,\"description\":\"The swiss army knife for binary data in JavaScript.\",\"licenses\":[\"Apache-2.0\"],\"dependentCount\":7023,\"dependentCountDirect\":746,\"dependentCountIndirect\":6327,\"links\":{\"origins\":[\"https://www.npmjs.com/package/bytebuffer/v/5.0.1\"],\"homepage\":\"https://github.com/dcodeIO/bytebuffer.js#readme\",\"issues\":\"https://github.com/dcodeIO/bytebuffer.js/issues\",\"repo\":\"https://github.com/dcodeio/bytebuffer.js\"},\"projects\":[{\"type\":\"GITHUB\",\"name\":\"dcodeIO/bytebuffer.js\",\"observedAt\":1667300034,\"issues\":40,\"forks\":153,\"stars\":689,\"description\":\"A fast and complete ByteBuffer implementation using either ArrayBuffers in the browser or Buffers under node.js.\",\"license\":\"Apache-2.0\",\"link\":\"https://github.com/dcodeIO/bytebuffer.js\"}],\"advisories\":[],\"relatedPackages\":{}},\"defaultVersion\":\"5.0.1\"}"
+      },
+      "reproducibility": "temporal",
+      "url": "https://deps.dev/_/s/npm/p/bytebuffer/v/5.0.1"
+    },
+    "generator": {
+      "name": "openssf.omega.security_advisories",
+      "version": "0.1.0"
+    },
+    "operational": {
+      "environment": {
+        "hostname": "scovetta-xps",
+        "machine_identifier": "00000000-0000-0000-0000-cc96e5042f66"
+      },
+      "execution_start": "2022-11-18T22:08:30.156269Z",
+      "execution_stop": "2022-11-18T22:08:30.460824Z"
+    }
+  },
+  "predicateType": "https://github.com/ossf/alpha-omega/v0.1",
+  "subject": {
+    "purl": "pkg:npm/bytebuffer",
+    "type": "https://github.com/ossf/alpha-omega/subject/package_url/v0.1"
+  }
+}

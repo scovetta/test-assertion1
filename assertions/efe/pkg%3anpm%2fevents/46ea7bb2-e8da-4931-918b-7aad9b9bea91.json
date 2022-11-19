@@ -1,0 +1,33 @@
+{
+  "_type": "https://in-toto.io/Statement/v0.1",
+  "predicate": {
+    "content": {
+      "security_advisories": {}
+    },
+    "evidence": {
+      "_type": "https://github.com/ossf/alpha-omega/types/evidence/url/v0.1",
+      "content": {
+        "output": "{\"package\":{\"system\":\"NPM\",\"name\":\"events\"},\"owners\":[],\"version\":{\"version\":\"3.3.0\",\"symbolicVersions\":[\"latest\"],\"createdAt\":1614444687,\"refreshedAt\":1657659024,\"isDefault\":true,\"description\":\"Node's event emitter for all engines.\",\"licenses\":[\"MIT\"],\"dependentCount\":81689,\"dependentCountDirect\":3669,\"dependentCountIndirect\":78186,\"links\":{\"origins\":[\"https://www.npmjs.com/package/events/v/3.3.0\"],\"homepage\":\"https://github.com/Gozala/events#readme\",\"issues\":\"http://github.com/Gozala/events/issues/\",\"repo\":\"https://github.com/gozala/events\"},\"projects\":[{\"type\":\"GITHUB\",\"name\":\"Gozala/events\",\"observedAt\":1666411202,\"issues\":9,\"forks\":167,\"stars\":1243,\"description\":\"Node's event emitter for all engines.\",\"license\":\"MIT\",\"link\":\"https://github.com/Gozala/events\"}],\"advisories\":[],\"relatedPackages\":{}},\"defaultVersion\":\"3.3.0\"}"
+      },
+      "reproducibility": "temporal",
+      "url": "https://deps.dev/_/s/npm/p/events/v/3.3.0"
+    },
+    "generator": {
+      "name": "openssf.omega.security_advisories",
+      "version": "0.1.0"
+    },
+    "operational": {
+      "environment": {
+        "hostname": "scovetta-xps",
+        "machine_identifier": "00000000-0000-0000-0000-cc96e5042f66"
+      },
+      "execution_start": "2022-11-18T22:04:30.681501Z",
+      "execution_stop": "2022-11-18T22:04:30.971108Z"
+    }
+  },
+  "predicateType": "https://github.com/ossf/alpha-omega/v0.1",
+  "subject": {
+    "purl": "pkg:npm/events",
+    "type": "https://github.com/ossf/alpha-omega/subject/package_url/v0.1"
+  }
+}

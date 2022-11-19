@@ -1,0 +1,33 @@
+{
+  "_type": "https://in-toto.io/Statement/v0.1",
+  "predicate": {
+    "content": {
+      "security_advisories": {}
+    },
+    "evidence": {
+      "_type": "https://github.com/ossf/alpha-omega/types/evidence/url/v0.1",
+      "content": {
+        "output": "{\"package\":{\"system\":\"NPM\",\"name\":\"leveldown\"},\"owners\":[],\"version\":{\"version\":\"6.1.1\",\"symbolicVersions\":[\"latest\"],\"createdAt\":1648205164,\"refreshedAt\":1649901557,\"isDefault\":true,\"description\":\"A low-level Node.js LevelDB binding\",\"licenses\":[\"MIT\"],\"dependentCount\":633,\"dependentCountDirect\":137,\"dependentCountIndirect\":507,\"links\":{\"origins\":[\"https://www.npmjs.com/package/leveldown/v/6.1.1\"],\"homepage\":\"https://github.com/Level/leveldown\",\"issues\":\"https://github.com/Level/leveldown/issues\",\"repo\":\"https://github.com/level/leveldown\"},\"projects\":[{\"type\":\"GITHUB\",\"name\":\"Level/leveldown\",\"observedAt\":1667837081,\"issues\":9,\"forks\":188,\"stars\":742,\"description\":\"Pure C++ Node.js LevelDB binding. An abstract-leveldown compliant store.\",\"license\":\"MIT\",\"link\":\"https://github.com/Level/leveldown\"}],\"advisories\":[],\"relatedPackages\":{}},\"defaultVersion\":\"6.1.1\"}"
+      },
+      "reproducibility": "temporal",
+      "url": "https://deps.dev/_/s/npm/p/leveldown/v/6.1.1"
+    },
+    "generator": {
+      "name": "openssf.omega.security_advisories",
+      "version": "0.1.0"
+    },
+    "operational": {
+      "environment": {
+        "hostname": "scovetta-xps",
+        "machine_identifier": "00000000-0000-0000-0000-cc96e5042f66"
+      },
+      "execution_start": "2022-11-18T22:07:58.342436Z",
+      "execution_stop": "2022-11-18T22:07:58.661428Z"
+    }
+  },
+  "predicateType": "https://github.com/ossf/alpha-omega/v0.1",
+  "subject": {
+    "purl": "pkg:npm/leveldown",
+    "type": "https://github.com/ossf/alpha-omega/subject/package_url/v0.1"
+  }
+}

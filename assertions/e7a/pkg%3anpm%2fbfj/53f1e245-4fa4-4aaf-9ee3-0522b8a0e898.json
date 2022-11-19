@@ -1,0 +1,33 @@
+{
+  "_type": "https://in-toto.io/Statement/v0.1",
+  "predicate": {
+    "content": {
+      "security_advisories": {}
+    },
+    "evidence": {
+      "_type": "https://github.com/ossf/alpha-omega/types/evidence/url/v0.1",
+      "content": {
+        "output": "{\"package\":{\"system\":\"NPM\",\"name\":\"bfj\"},\"owners\":[],\"version\":{\"version\":\"7.0.2\",\"symbolicVersions\":[\"latest\"],\"createdAt\":1577112128,\"refreshedAt\":1657641887,\"isDefault\":true,\"description\":\"Big-friendly JSON. Asynchronous streaming functions for large JSON data sets.\",\"licenses\":[\"MIT\"],\"dependentCount\":10721,\"dependentCountDirect\":818,\"dependentCountIndirect\":9951,\"links\":{\"origins\":[\"https://www.npmjs.com/package/bfj/v/7.0.2\"],\"homepage\":\"https://gitlab.com/philbooth/bfj\",\"issues\":\"https://gitlab.com/philbooth/bfj/issues\",\"repo\":\"https://gitlab.com/philbooth/bfj\"},\"projects\":[{\"type\":\"GITLAB\",\"name\":\"philbooth/bfj\",\"observedAt\":1668628959,\"issues\":3,\"forks\":5,\"stars\":31,\"description\":\"Big-Friendly JSON. Asynchronous streaming functions for large JSON data sets.\",\"link\":\"https://gitlab.com/philbooth/bfj\"}],\"advisories\":[],\"relatedPackages\":{}},\"defaultVersion\":\"7.0.2\"}"
+      },
+      "reproducibility": "temporal",
+      "url": "https://deps.dev/_/s/npm/p/bfj/v/7.0.2"
+    },
+    "generator": {
+      "name": "openssf.omega.security_advisories",
+      "version": "0.1.0"
+    },
+    "operational": {
+      "environment": {
+        "hostname": "scovetta-xps",
+        "machine_identifier": "00000000-0000-0000-0000-cc96e5042f66"
+      },
+      "execution_start": "2022-11-18T22:06:11.520670Z",
+      "execution_stop": "2022-11-18T22:06:11.806572Z"
+    }
+  },
+  "predicateType": "https://github.com/ossf/alpha-omega/v0.1",
+  "subject": {
+    "purl": "pkg:npm/bfj",
+    "type": "https://github.com/ossf/alpha-omega/subject/package_url/v0.1"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "_type": "https://in-toto.io/Statement/v0.1",
+  "predicate": {
+    "content": {
+      "security_advisories": {}
+    },
+    "evidence": {
+      "_type": "https://github.com/ossf/alpha-omega/types/evidence/url/v0.1",
+      "content": {
+        "output": "{\"package\":{\"system\":\"NPM\",\"name\":\"bower\"},\"owners\":[],\"version\":{\"version\":\"1.8.14\",\"symbolicVersions\":[\"latest\",\"beta\"],\"createdAt\":1647272493,\"refreshedAt\":1649891865,\"isDefault\":true,\"description\":\"The browser package manager\",\"licenses\":[\"MIT\"],\"dependentCount\":1189,\"dependentCountDirect\":935,\"dependentCountIndirect\":267,\"links\":{\"origins\":[\"https://www.npmjs.com/package/bower/v/1.8.14\"],\"homepage\":\"http://bower.io\",\"repo\":\"bower/bower\"},\"projects\":[],\"advisories\":[],\"relatedPackages\":{}},\"defaultVersion\":\"1.8.14\"}"
+      },
+      "reproducibility": "temporal",
+      "url": "https://deps.dev/_/s/npm/p/bower/v/1.8.14"
+    },
+    "generator": {
+      "name": "openssf.omega.security_advisories",
+      "version": "0.1.0"
+    },
+    "operational": {
+      "environment": {
+        "hostname": "scovetta-xps",
+        "machine_identifier": "00000000-0000-0000-0000-cc96e5042f66"
+      },
+      "execution_start": "2022-11-18T22:05:39.853203Z",
+      "execution_stop": "2022-11-18T22:05:40.109366Z"
+    }
+  },
+  "predicateType": "https://github.com/ossf/alpha-omega/v0.1",
+  "subject": {
+    "purl": "pkg:npm/bower",
+    "type": "https://github.com/ossf/alpha-omega/subject/package_url/v0.1"
+  }
+}

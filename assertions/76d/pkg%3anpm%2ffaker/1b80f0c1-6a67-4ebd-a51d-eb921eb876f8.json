@@ -1,0 +1,35 @@
+{
+  "_type": "https://in-toto.io/Statement/v0.1",
+  "predicate": {
+    "content": {
+      "security_advisories": {
+        "unknown": 1
+      }
+    },
+    "evidence": {
+      "_type": "https://github.com/ossf/alpha-omega/types/evidence/url/v0.1",
+      "content": {
+        "output": "{\"package\":{\"system\":\"NPM\",\"name\":\"faker\"},\"owners\":[],\"version\":{\"version\":\"6.6.6\",\"symbolicVersions\":[\"latest\"],\"createdAt\":1641346716,\"refreshedAt\":1656984855,\"isDefault\":true,\"description\":\"Generate massive amounts of fake contextual data\",\"licenses\":[\"MIT\"],\"dependentCount\":90,\"dependentCountDirect\":49,\"dependentCountIndirect\":42,\"links\":{\"origins\":[\"https://www.npmjs.com/package/faker/v/6.6.6\"],\"homepage\":\"https://github.com/Marak/Faker.js#readme\",\"issues\":\"https://github.com/Marak/Faker.js/issues\",\"repo\":\"https://github.com/marak/faker.js\"},\"projects\":[{\"type\":\"GITHUB\",\"name\":\"marak/faker.js\",\"observedAt\":1645887632,\"issues\":0,\"forks\":751,\"stars\":1572,\"description\":\"What really happened with Aaron Swartz?\",\"link\":\"https://github.com/marak/faker.js\"}],\"advisories\":[{\"source\":\"GHSA\",\"sourceID\":\"GHSA-5w9c-rv96-fr7g\",\"sourceURL\":\"https://github.com/advisories/GHSA-5w9c-rv96-fr7g\",\"title\":\"Removal of functional code in faker.js\",\"description\":\"Faker.js helps users create large amounts of data for testing and development. The maintainer deliberately removed the functional code from this package. This appears to be a purposeful and successful attempt to make the package unusable. This is related to the colors.js [CVE-2021-23567](https://github.com/advisories/GHSA-gh88-3pxp-6fm8). \\n\\nThe functional code for this package was forked and can be found [here](https://github.com/faker-js/faker). \",\"referenceURLs\":[\"https://nvd.nist.gov/vuln/detail/CVE-2021-23567\",\"https://github.com/Marak/colors.js/issues/285\",\"https://github.com/Marak/colors.js/issues/285%23issuecomment-1008212640\",\"https://github.com/Marak/colors.js/commit/074a0f8ed0c31c35d13d28632bd8a049ff136fb6#diff-92bbac9a308cd5fcf9db165841f2d90ce981baddcb2b1e26cfff170929af3bd1R18\",\"https://github.com/advisories/GHSA-gh88-3pxp-6fm8\",\"https://snyk.io/vuln/SNYK-JS-COLORS-2331906\",\"https://www.npmjs.com/package/@faker-js/faker\",\"https://www.npmjs.com/package/faker\",\"https://github.com/advisories/GHSA-5w9c-rv96-fr7g\"],\"severity\":\"UNKNOWN\",\"gitHubSeverity\":\"HIGH\",\"aliases\":[],\"disclosedAt\":1647977304,\"observedAt\":1648060213}],\"relatedPackages\":{}},\"defaultVersion\":\"6.6.6\"}"
+      },
+      "reproducibility": "temporal",
+      "url": "https://deps.dev/_/s/npm/p/faker/v/6.6.6"
+    },
+    "generator": {
+      "name": "openssf.omega.security_advisories",
+      "version": "0.1.0"
+    },
+    "operational": {
+      "environment": {
+        "hostname": "scovetta-xps",
+        "machine_identifier": "00000000-0000-0000-0000-cc96e5042f66"
+      },
+      "execution_start": "2022-11-18T22:06:03.454670Z",
+      "execution_stop": "2022-11-18T22:06:03.778026Z"
+    }
+  },
+  "predicateType": "https://github.com/ossf/alpha-omega/v0.1",
+  "subject": {
+    "purl": "pkg:npm/faker",
+    "type": "https://github.com/ossf/alpha-omega/subject/package_url/v0.1"
+  }
+}

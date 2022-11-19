@@ -1,0 +1,33 @@
+{
+  "_type": "https://in-toto.io/Statement/v0.1",
+  "predicate": {
+    "content": {
+      "security_advisories": {}
+    },
+    "evidence": {
+      "_type": "https://github.com/ossf/alpha-omega/types/evidence/url/v0.1",
+      "content": {
+        "output": "{\"package\":{\"system\":\"NPM\",\"name\":\"phantomjs-prebuilt\"},\"owners\":[],\"version\":{\"version\":\"2.1.16\",\"symbolicVersions\":[\"latest\"],\"createdAt\":1509654263,\"refreshedAt\":1649906801,\"isDefault\":true,\"deprecated\":\"this package is now deprecated\",\"description\":\"Headless WebKit with JS API\",\"licenses\":[\"Apache-2.0\"],\"dependentCount\":2775,\"dependentCountDirect\":724,\"dependentCountIndirect\":2099,\"links\":{\"origins\":[\"https://www.npmjs.com/package/phantomjs-prebuilt/v/2.1.16\"],\"homepage\":\"https://github.com/Medium/phantomjs\",\"issues\":\"https://github.com/Medium/phantomjs/issues\",\"repo\":\"https://github.com/medium/phantomjs\"},\"projects\":[{\"type\":\"GITHUB\",\"name\":\"Medium/phantomjs\",\"observedAt\":1666976377,\"issues\":174,\"forks\":447,\"stars\":1414,\"description\":\"NPM wrapper for installing phantomjs\",\"license\":\"non-standard\",\"link\":\"https://github.com/Medium/phantomjs\"}],\"advisories\":[],\"relatedPackages\":{}},\"defaultVersion\":\"2.1.16\"}"
+      },
+      "reproducibility": "temporal",
+      "url": "https://deps.dev/_/s/npm/p/phantomjs-prebuilt/v/2.1.16"
+    },
+    "generator": {
+      "name": "openssf.omega.security_advisories",
+      "version": "0.1.0"
+    },
+    "operational": {
+      "environment": {
+        "hostname": "scovetta-xps",
+        "machine_identifier": "00000000-0000-0000-0000-cc96e5042f66"
+      },
+      "execution_start": "2022-11-18T22:07:18.852453Z",
+      "execution_stop": "2022-11-18T22:07:19.152611Z"
+    }
+  },
+  "predicateType": "https://github.com/ossf/alpha-omega/v0.1",
+  "subject": {
+    "purl": "pkg:npm/phantomjs-prebuilt",
+    "type": "https://github.com/ossf/alpha-omega/subject/package_url/v0.1"
+  }
+}

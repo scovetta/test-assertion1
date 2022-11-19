@@ -1,0 +1,33 @@
+{
+  "_type": "https://in-toto.io/Statement/v0.1",
+  "predicate": {
+    "content": {
+      "security_advisories": {}
+    },
+    "evidence": {
+      "_type": "https://github.com/ossf/alpha-omega/types/evidence/url/v0.1",
+      "content": {
+        "output": "{\"package\":{\"system\":\"NPM\",\"name\":\"download-git-repo\"},\"owners\":[],\"version\":{\"version\":\"3.0.2\",\"symbolicVersions\":[\"latest\"],\"createdAt\":1570916817,\"refreshedAt\":1657066789,\"isDefault\":true,\"description\":\"Download and extract a git repository (GitHub, GitLab, Bitbucket) from node.\",\"licenses\":[\"MIT\"],\"dependentCount\":5153,\"dependentCountDirect\":4895,\"dependentCountIndirect\":269,\"links\":{\"origins\":[\"https://www.npmjs.com/package/download-git-repo/v/3.0.2\"],\"homepage\":\"https://gitlab.com/flippidippi/download-git-repo#readme\",\"issues\":\"https://gitlab.com/flippidippi/download-git-repo/issues\",\"repo\":\"https://gitlab.com/flippidippi/download-git-repo\"},\"projects\":[{\"type\":\"GITLAB\",\"name\":\"flippidippi/download-git-repo\",\"observedAt\":1668714737,\"issues\":9,\"forks\":12,\"stars\":17,\"description\":\"Download and extract a git repository (GitHub, GitLab, Bitbucket) from node.\",\"link\":\"https://gitlab.com/flippidippi/download-git-repo\"}],\"advisories\":[],\"relatedPackages\":{}},\"defaultVersion\":\"3.0.2\"}"
+      },
+      "reproducibility": "temporal",
+      "url": "https://deps.dev/_/s/npm/p/download-git-repo/v/3.0.2"
+    },
+    "generator": {
+      "name": "openssf.omega.security_advisories",
+      "version": "0.1.0"
+    },
+    "operational": {
+      "environment": {
+        "hostname": "scovetta-xps",
+        "machine_identifier": "00000000-0000-0000-0000-cc96e5042f66"
+      },
+      "execution_start": "2022-11-18T22:04:06.379508Z",
+      "execution_stop": "2022-11-18T22:04:06.692646Z"
+    }
+  },
+  "predicateType": "https://github.com/ossf/alpha-omega/v0.1",
+  "subject": {
+    "purl": "pkg:npm/download-git-repo",
+    "type": "https://github.com/ossf/alpha-omega/subject/package_url/v0.1"
+  }
+}

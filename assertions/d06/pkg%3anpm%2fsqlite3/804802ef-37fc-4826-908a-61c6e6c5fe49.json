@@ -1,0 +1,33 @@
+{
+  "_type": "https://in-toto.io/Statement/v0.1",
+  "predicate": {
+    "content": {
+      "security_advisories": {}
+    },
+    "evidence": {
+      "_type": "https://github.com/ossf/alpha-omega/types/evidence/url/v0.1",
+      "content": {
+        "output": "{\"package\":{\"system\":\"NPM\",\"name\":\"sqlite3\"},\"owners\":[],\"version\":{\"version\":\"5.1.2\",\"symbolicVersions\":[\"latest\"],\"createdAt\":1664771002,\"refreshedAt\":1664771348,\"isDefault\":true,\"description\":\"Asynchronous, non-blocking SQLite3 bindings\",\"licenses\":[\"BSD-3-Clause\"],\"dependentCount\":1942,\"dependentCountDirect\":1135,\"dependentCountIndirect\":826,\"links\":{\"origins\":[\"https://www.npmjs.com/package/sqlite3/v/5.1.2\"],\"homepage\":\"https://github.com/TryGhost/node-sqlite3\",\"issues\":\"https://github.com/TryGhost/node-sqlite3/issues\",\"repo\":\"https://github.com/tryghost/node-sqlite3\"},\"projects\":[{\"type\":\"GITHUB\",\"name\":\"TryGhost/node-sqlite3\",\"observedAt\":1667889434,\"issues\":99,\"forks\":751,\"stars\":5546,\"description\":\"SQLite3 bindings for Node.js\",\"license\":\"BSD-3-Clause\",\"link\":\"https://github.com/TryGhost/node-sqlite3\"}],\"advisories\":[],\"relatedPackages\":{}},\"defaultVersion\":\"5.1.2\"}"
+      },
+      "reproducibility": "temporal",
+      "url": "https://deps.dev/_/s/npm/p/sqlite3/v/5.1.2"
+    },
+    "generator": {
+      "name": "openssf.omega.security_advisories",
+      "version": "0.1.0"
+    },
+    "operational": {
+      "environment": {
+        "hostname": "scovetta-xps",
+        "machine_identifier": "00000000-0000-0000-0000-cc96e5042f66"
+      },
+      "execution_start": "2022-11-18T22:04:45.995898Z",
+      "execution_stop": "2022-11-18T22:04:46.305149Z"
+    }
+  },
+  "predicateType": "https://github.com/ossf/alpha-omega/v0.1",
+  "subject": {
+    "purl": "pkg:npm/sqlite3",
+    "type": "https://github.com/ossf/alpha-omega/subject/package_url/v0.1"
+  }
+}

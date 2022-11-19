@@ -1,0 +1,33 @@
+{
+  "_type": "https://in-toto.io/Statement/v0.1",
+  "predicate": {
+    "content": {
+      "security_advisories": {}
+    },
+    "evidence": {
+      "_type": "https://github.com/ossf/alpha-omega/types/evidence/url/v0.1",
+      "content": {
+        "output": "{\"package\":{\"system\":\"NPM\",\"name\":\"co-prompt\"},\"owners\":[],\"version\":{\"version\":\"1.0.0\",\"symbolicVersions\":[\"latest\"],\"createdAt\":1374196172,\"refreshedAt\":1657694293,\"isDefault\":true,\"description\":\"simple terminal user input 'co'\",\"licenses\":[\"MIT\"],\"dependentCount\":1865,\"dependentCountDirect\":1144,\"dependentCountIndirect\":724,\"links\":{\"origins\":[\"https://www.npmjs.com/package/co-prompt/v/1.0.0\"]},\"projects\":[],\"advisories\":[],\"relatedPackages\":{}},\"defaultVersion\":\"1.0.0\"}"
+      },
+      "reproducibility": "temporal",
+      "url": "https://deps.dev/_/s/npm/p/co-prompt/v/1.0.0"
+    },
+    "generator": {
+      "name": "openssf.omega.security_advisories",
+      "version": "0.1.0"
+    },
+    "operational": {
+      "environment": {
+        "hostname": "scovetta-xps",
+        "machine_identifier": "00000000-0000-0000-0000-cc96e5042f66"
+      },
+      "execution_start": "2022-11-18T22:05:57.253795Z",
+      "execution_stop": "2022-11-18T22:05:57.519113Z"
+    }
+  },
+  "predicateType": "https://github.com/ossf/alpha-omega/v0.1",
+  "subject": {
+    "purl": "pkg:npm/co-prompt",
+    "type": "https://github.com/ossf/alpha-omega/subject/package_url/v0.1"
+  }
+}

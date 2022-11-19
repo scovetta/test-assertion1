@@ -1,0 +1,33 @@
+{
+  "_type": "https://in-toto.io/Statement/v0.1",
+  "predicate": {
+    "content": {
+      "security_advisories": {}
+    },
+    "evidence": {
+      "_type": "https://github.com/ossf/alpha-omega/types/evidence/url/v0.1",
+      "content": {
+        "output": "{\"package\":{\"system\":\"NPM\",\"name\":\"listr\"},\"owners\":[],\"version\":{\"version\":\"0.14.3\",\"symbolicVersions\":[\"latest\"],\"createdAt\":1542486006,\"refreshedAt\":1657265947,\"isDefault\":true,\"description\":\"Terminal task list\",\"licenses\":[\"MIT\"],\"dependentCount\":5176,\"dependentCountDirect\":2015,\"dependentCountIndirect\":3192,\"links\":{\"origins\":[\"https://www.npmjs.com/package/listr/v/0.14.3\"],\"homepage\":\"https://github.com/SamVerschueren/listr#readme\",\"issues\":\"https://github.com/SamVerschueren/listr/issues\",\"repo\":\"https://github.com/samverschueren/listr\"},\"projects\":[{\"type\":\"GITHUB\",\"name\":\"SamVerschueren/listr\",\"observedAt\":1667873067,\"issues\":66,\"forks\":127,\"stars\":3071,\"description\":\"Terminal task list\",\"license\":\"MIT\",\"link\":\"https://github.com/SamVerschueren/listr\"}],\"advisories\":[],\"relatedPackages\":{}},\"defaultVersion\":\"0.14.3\"}"
+      },
+      "reproducibility": "temporal",
+      "url": "https://deps.dev/_/s/npm/p/listr/v/0.14.3"
+    },
+    "generator": {
+      "name": "openssf.omega.security_advisories",
+      "version": "0.1.0"
+    },
+    "operational": {
+      "environment": {
+        "hostname": "scovetta-xps",
+        "machine_identifier": "00000000-0000-0000-0000-cc96e5042f66"
+      },
+      "execution_start": "2022-11-18T22:06:27.391273Z",
+      "execution_stop": "2022-11-18T22:06:27.659834Z"
+    }
+  },
+  "predicateType": "https://github.com/ossf/alpha-omega/v0.1",
+  "subject": {
+    "purl": "pkg:npm/listr",
+    "type": "https://github.com/ossf/alpha-omega/subject/package_url/v0.1"
+  }
+}

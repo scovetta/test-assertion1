@@ -1,0 +1,33 @@
+{
+  "_type": "https://in-toto.io/Statement/v0.1",
+  "predicate": {
+    "content": {
+      "security_advisories": {}
+    },
+    "evidence": {
+      "_type": "https://github.com/ossf/alpha-omega/types/evidence/url/v0.1",
+      "content": {
+        "output": "{\"package\":{\"system\":\"NPM\",\"name\":\"eslint-plugin-import\"},\"owners\":[],\"version\":{\"version\":\"2.26.0\",\"symbolicVersions\":[\"latest\"],\"createdAt\":1649189145,\"refreshedAt\":1657910826,\"isDefault\":true,\"description\":\"Import with sanity.\",\"licenses\":[\"MIT\"],\"dependentCount\":26878,\"dependentCountDirect\":10877,\"dependentCountIndirect\":16511,\"links\":{\"origins\":[\"https://www.npmjs.com/package/eslint-plugin-import/v/2.26.0\"],\"homepage\":\"https://github.com/import-js/eslint-plugin-import\",\"issues\":\"https://github.com/import-js/eslint-plugin-import/issues\",\"repo\":\"https://github.com/import-js/eslint-plugin-import\"},\"projects\":[{\"type\":\"GITHUB\",\"name\":\"import-js/eslint-plugin-import\",\"observedAt\":1668754291,\"issues\":486,\"forks\":1431,\"stars\":4412,\"description\":\"ESLint plugin with rules that help validate proper imports.\",\"license\":\"MIT\",\"link\":\"https://github.com/import-js/eslint-plugin-import\"}],\"advisories\":[],\"relatedPackages\":{}},\"defaultVersion\":\"2.26.0\"}"
+      },
+      "reproducibility": "temporal",
+      "url": "https://deps.dev/_/s/npm/p/eslint-plugin-import/v/2.26.0"
+    },
+    "generator": {
+      "name": "openssf.omega.security_advisories",
+      "version": "0.1.0"
+    },
+    "operational": {
+      "environment": {
+        "hostname": "scovetta-xps",
+        "machine_identifier": "00000000-0000-0000-0000-cc96e5042f66"
+      },
+      "execution_start": "2022-11-18T22:03:20.606486Z",
+      "execution_stop": "2022-11-18T22:03:20.929018Z"
+    }
+  },
+  "predicateType": "https://github.com/ossf/alpha-omega/v0.1",
+  "subject": {
+    "purl": "pkg:npm/eslint-plugin-import",
+    "type": "https://github.com/ossf/alpha-omega/subject/package_url/v0.1"
+  }
+}

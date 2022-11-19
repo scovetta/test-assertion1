@@ -1,0 +1,33 @@
+{
+  "_type": "https://in-toto.io/Statement/v0.1",
+  "predicate": {
+    "content": {
+      "security_advisories": {}
+    },
+    "evidence": {
+      "_type": "https://github.com/ossf/alpha-omega/types/evidence/url/v0.1",
+      "content": {
+        "output": "{\"package\":{\"system\":\"NPM\",\"name\":\"fork-ts-checker-webpack-plugin-alt\"},\"owners\":[],\"version\":{\"version\":\"0.4.14\",\"symbolicVersions\":[\"latest\"],\"createdAt\":1540738547,\"refreshedAt\":1657222022,\"isDefault\":true,\"description\":\"Runs typescript type checker and linter on separate process.\",\"licenses\":[\"MIT\"],\"dependentCount\":1083,\"dependentCountDirect\":533,\"dependentCountIndirect\":559,\"links\":{\"origins\":[\"https://www.npmjs.com/package/fork-ts-checker-webpack-plugin-alt/v/0.4.14\"],\"homepage\":\"https://github.com/Timer/fork-ts-checker-webpack-plugin#readme\",\"issues\":\"https://github.com/Realytics/fork-ts-checker-webpack-plugin/issues\",\"repo\":\"https://github.com/timer/fork-ts-checker-webpack-plugin\"},\"projects\":[{\"type\":\"GITHUB\",\"name\":\"Realytics/fork-ts-checker-webpack-plugin\",\"observedAt\":1667477343,\"issues\":21,\"forks\":230,\"stars\":1744,\"description\":\"Webpack plugin that runs typescript type checker on a separate process.\",\"license\":\"MIT\",\"link\":\"https://github.com/Realytics/fork-ts-checker-webpack-plugin\"},{\"type\":\"GITHUB\",\"name\":\"Timer/fork-ts-checker-webpack-plugin\",\"observedAt\":1599372589,\"issues\":1,\"forks\":2,\"stars\":0,\"description\":\"Webpack plugin that runs typescript type checker on a separate process.\",\"license\":\"MIT\",\"link\":\"https://github.com/Timer/fork-ts-checker-webpack-plugin\"}],\"advisories\":[],\"relatedPackages\":{}},\"defaultVersion\":\"0.4.14\"}"
+      },
+      "reproducibility": "temporal",
+      "url": "https://deps.dev/_/s/npm/p/fork-ts-checker-webpack-plugin-alt/v/0.4.14"
+    },
+    "generator": {
+      "name": "openssf.omega.security_advisories",
+      "version": "0.1.0"
+    },
+    "operational": {
+      "environment": {
+        "hostname": "scovetta-xps",
+        "machine_identifier": "00000000-0000-0000-0000-cc96e5042f66"
+      },
+      "execution_start": "2022-11-18T22:08:10.867778Z",
+      "execution_stop": "2022-11-18T22:08:11.171888Z"
+    }
+  },
+  "predicateType": "https://github.com/ossf/alpha-omega/v0.1",
+  "subject": {
+    "purl": "pkg:npm/fork-ts-checker-webpack-plugin-alt",
+    "type": "https://github.com/ossf/alpha-omega/subject/package_url/v0.1"
+  }
+}

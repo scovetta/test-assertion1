@@ -1,0 +1,33 @@
+{
+  "_type": "https://in-toto.io/Statement/v0.1",
+  "predicate": {
+    "content": {
+      "security_advisories": {}
+    },
+    "evidence": {
+      "_type": "https://github.com/ossf/alpha-omega/types/evidence/url/v0.1",
+      "content": {
+        "output": "{\"package\":{\"system\":\"NPM\",\"name\":\"atob\"},\"owners\":[],\"version\":{\"version\":\"2.1.2\",\"symbolicVersions\":[\"latest\"],\"createdAt\":1534587539,\"refreshedAt\":1657754224,\"isDefault\":true,\"description\":\"atob for Node.JS and Linux / Mac / Windows CLI (it's a one-liner)\",\"licenses\":[\"Apache-2.0 OR MIT\"],\"dependentCount\":131989,\"dependentCountDirect\":2206,\"dependentCountIndirect\":129877,\"links\":{\"origins\":[\"https://www.npmjs.com/package/atob/v/2.1.2\"],\"homepage\":\"https://git.coolaj86.com/coolaj86/atob.js.git\",\"repo\":\"git://git.coolaj86.com/coolaj86/atob.js.git\"},\"projects\":[],\"advisories\":[],\"relatedPackages\":{}},\"defaultVersion\":\"2.1.2\"}"
+      },
+      "reproducibility": "temporal",
+      "url": "https://deps.dev/_/s/npm/p/atob/v/2.1.2"
+    },
+    "generator": {
+      "name": "openssf.omega.security_advisories",
+      "version": "0.1.0"
+    },
+    "operational": {
+      "environment": {
+        "hostname": "scovetta-xps",
+        "machine_identifier": "00000000-0000-0000-0000-cc96e5042f66"
+      },
+      "execution_start": "2022-11-18T22:08:45.323900Z",
+      "execution_stop": "2022-11-18T22:08:45.588671Z"
+    }
+  },
+  "predicateType": "https://github.com/ossf/alpha-omega/v0.1",
+  "subject": {
+    "purl": "pkg:npm/atob",
+    "type": "https://github.com/ossf/alpha-omega/subject/package_url/v0.1"
+  }
+}

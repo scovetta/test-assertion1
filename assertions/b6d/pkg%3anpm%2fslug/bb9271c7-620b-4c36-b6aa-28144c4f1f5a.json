@@ -1,0 +1,33 @@
+{
+  "_type": "https://in-toto.io/Statement/v0.1",
+  "predicate": {
+    "content": {
+      "security_advisories": {}
+    },
+    "evidence": {
+      "_type": "https://github.com/ossf/alpha-omega/types/evidence/url/v0.1",
+      "content": {
+        "output": "{\"package\":{\"system\":\"NPM\",\"name\":\"slug\"},\"owners\":[],\"version\":{\"version\":\"8.2.2\",\"symbolicVersions\":[\"latest\"],\"createdAt\":1664686553,\"refreshedAt\":1664686909,\"isDefault\":true,\"description\":\"slugifies even utf-8 chars!\",\"licenses\":[\"MIT\"],\"dependentCount\":21,\"dependentCountDirect\":20,\"dependentCountIndirect\":1,\"links\":{\"origins\":[\"https://www.npmjs.com/package/slug/v/8.2.2\"],\"homepage\":\"https://github.com/Trott/slug\",\"issues\":\"https://github.com/Trott/slug/issues\",\"repo\":\"https://github.com/trott/slug\"},\"projects\":[{\"type\":\"GITHUB\",\"name\":\"Trott/slug\",\"observedAt\":1667425121,\"issues\":7,\"forks\":30,\"stars\":245,\"description\":\"slugifies even utf-8 chars!\",\"license\":\"MIT\",\"link\":\"https://github.com/Trott/slug\"}],\"advisories\":[],\"relatedPackages\":{}},\"defaultVersion\":\"8.2.2\"}"
+      },
+      "reproducibility": "temporal",
+      "url": "https://deps.dev/_/s/npm/p/slug/v/8.2.2"
+    },
+    "generator": {
+      "name": "openssf.omega.security_advisories",
+      "version": "0.1.0"
+    },
+    "operational": {
+      "environment": {
+        "hostname": "scovetta-xps",
+        "machine_identifier": "00000000-0000-0000-0000-cc96e5042f66"
+      },
+      "execution_start": "2022-11-18T22:07:11.509711Z",
+      "execution_stop": "2022-11-18T22:07:11.789326Z"
+    }
+  },
+  "predicateType": "https://github.com/ossf/alpha-omega/v0.1",
+  "subject": {
+    "purl": "pkg:npm/slug",
+    "type": "https://github.com/ossf/alpha-omega/subject/package_url/v0.1"
+  }
+}

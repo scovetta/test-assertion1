@@ -1,0 +1,33 @@
+{
+  "_type": "https://in-toto.io/Statement/v0.1",
+  "predicate": {
+    "content": {
+      "security_advisories": {}
+    },
+    "evidence": {
+      "_type": "https://github.com/ossf/alpha-omega/types/evidence/url/v0.1",
+      "content": {
+        "output": "{\"package\":{\"system\":\"NPM\",\"name\":\"config\"},\"owners\":[],\"version\":{\"version\":\"3.3.8\",\"symbolicVersions\":[\"latest\"],\"createdAt\":1662732973,\"refreshedAt\":1662733848,\"isDefault\":true,\"description\":\"Configuration control for production node deployments\",\"licenses\":[\"MIT\"],\"dependentCount\":1623,\"dependentCountDirect\":1150,\"dependentCountIndirect\":498,\"links\":{\"origins\":[\"https://www.npmjs.com/package/config/v/3.3.8\"],\"homepage\":\"http://github.com/node-config/node-config.git\",\"issues\":\"https://github.com/node-config/node-config/issues\",\"repo\":\"https://github.com/node-config/node-config\"},\"projects\":[{\"type\":\"GITHUB\",\"name\":\"node-config/node-config\",\"observedAt\":1668598894,\"issues\":52,\"forks\":474,\"stars\":5809,\"description\":\"Node.js Application Configuration\",\"license\":\"non-standard\",\"link\":\"https://github.com/node-config/node-config\"}],\"advisories\":[],\"relatedPackages\":{}},\"defaultVersion\":\"3.3.8\"}"
+      },
+      "reproducibility": "temporal",
+      "url": "https://deps.dev/_/s/npm/p/config/v/3.3.8"
+    },
+    "generator": {
+      "name": "openssf.omega.security_advisories",
+      "version": "0.1.0"
+    },
+    "operational": {
+      "environment": {
+        "hostname": "scovetta-xps",
+        "machine_identifier": "00000000-0000-0000-0000-cc96e5042f66"
+      },
+      "execution_start": "2022-11-18T22:04:25.488323Z",
+      "execution_stop": "2022-11-18T22:04:25.787377Z"
+    }
+  },
+  "predicateType": "https://github.com/ossf/alpha-omega/v0.1",
+  "subject": {
+    "purl": "pkg:npm/config",
+    "type": "https://github.com/ossf/alpha-omega/subject/package_url/v0.1"
+  }
+}

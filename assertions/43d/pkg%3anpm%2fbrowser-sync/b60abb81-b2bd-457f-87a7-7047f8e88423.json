@@ -1,0 +1,33 @@
+{
+  "_type": "https://in-toto.io/Statement/v0.1",
+  "predicate": {
+    "content": {
+      "security_advisories": {}
+    },
+    "evidence": {
+      "_type": "https://github.com/ossf/alpha-omega/types/evidence/url/v0.1",
+      "content": {
+        "output": "{\"package\":{\"system\":\"NPM\",\"name\":\"browser-sync\"},\"owners\":[],\"version\":{\"version\":\"2.27.10\",\"symbolicVersions\":[\"latest\"],\"createdAt\":1652730470,\"refreshedAt\":1656519508,\"isDefault\":true,\"description\":\"Live CSS Reload \\u0026 Browser Syncing\",\"licenses\":[\"Apache-2.0\"],\"dependentCount\":3095,\"dependentCountDirect\":2367,\"dependentCountIndirect\":753,\"links\":{\"origins\":[\"https://www.npmjs.com/package/browser-sync/v/2.27.10\"],\"homepage\":\"https://browsersync.io/\",\"issues\":\"https://github.com/BrowserSync/browser-sync/issues\",\"repo\":\"https://github.com/browsersync/browser-sync\"},\"projects\":[{\"type\":\"GITHUB\",\"name\":\"BrowserSync/browser-sync\",\"observedAt\":1667748368,\"issues\":562,\"forks\":778,\"stars\":11834,\"description\":\"Keep multiple browsers \\u0026 devices in sync when building websites. http://browsersync.io\",\"license\":\"Apache-2.0\",\"link\":\"https://github.com/BrowserSync/browser-sync\"}],\"advisories\":[],\"relatedPackages\":{}},\"defaultVersion\":\"2.27.10\"}"
+      },
+      "reproducibility": "temporal",
+      "url": "https://deps.dev/_/s/npm/p/browser-sync/v/2.27.10"
+    },
+    "generator": {
+      "name": "openssf.omega.security_advisories",
+      "version": "0.1.0"
+    },
+    "operational": {
+      "environment": {
+        "hostname": "scovetta-xps",
+        "machine_identifier": "00000000-0000-0000-0000-cc96e5042f66"
+      },
+      "execution_start": "2022-11-18T22:04:41.662212Z",
+      "execution_stop": "2022-11-18T22:04:41.932698Z"
+    }
+  },
+  "predicateType": "https://github.com/ossf/alpha-omega/v0.1",
+  "subject": {
+    "purl": "pkg:npm/browser-sync",
+    "type": "https://github.com/ossf/alpha-omega/subject/package_url/v0.1"
+  }
+}
