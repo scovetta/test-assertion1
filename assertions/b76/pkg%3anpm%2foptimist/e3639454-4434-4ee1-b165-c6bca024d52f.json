@@ -1,0 +1,33 @@
+{
+  "_type": "https://in-toto.io/Statement/v0.1",
+  "predicate": {
+    "content": {
+      "security_advisories": {}
+    },
+    "evidence": {
+      "_type": "https://github.com/ossf/alpha-omega/types/evidence/url/v0.1",
+      "content": {
+        "output": "{\"package\":{\"system\":\"NPM\",\"name\":\"optimist\"},\"owners\":[],\"version\":{\"version\":\"0.6.1\",\"symbolicVersions\":[\"latest\"],\"createdAt\":1391665256,\"refreshedAt\":1658360760,\"isDefault\":true,\"description\":\"Light-weight option parsing with an argv hash. No optstrings attached.\",\"licenses\":[\"MIT OR X11\"],\"dependentCount\":26861,\"dependentCountDirect\":5486,\"dependentCountIndirect\":21505,\"links\":{\"origins\":[\"https://www.npmjs.com/package/optimist/v/0.6.1\"],\"homepage\":\"https://github.com/substack/node-optimist\",\"issues\":\"https://github.com/substack/node-optimist/issues\",\"repo\":\"https://github.com/substack/node-optimist\"},\"projects\":[{\"type\":\"GITHUB\",\"name\":\"substack/node-optimist\",\"observedAt\":1663003773,\"issues\":20,\"forks\":183,\"stars\":2608,\"description\":\"Light-weight option parsing for node.js\",\"license\":\"non-standard\",\"link\":\"https://github.com/substack/node-optimist\"}],\"advisories\":[],\"relatedPackages\":{}},\"defaultVersion\":\"0.6.1\"}"
+      },
+      "reproducibility": "temporal",
+      "url": "https://deps.dev/_/s/npm/p/optimist/v/0.6.1"
+    },
+    "generator": {
+      "name": "openssf.omega.security_advisories",
+      "version": "0.1.0"
+    },
+    "operational": {
+      "environment": {
+        "hostname": "scovetta-xps",
+        "machine_identifier": "00000000-0000-0000-0000-cc96e5042f66"
+      },
+      "execution_start": "2022-11-18T22:03:35.498911Z",
+      "execution_stop": "2022-11-18T22:03:35.782113Z"
+    }
+  },
+  "predicateType": "https://github.com/ossf/alpha-omega/v0.1",
+  "subject": {
+    "purl": "pkg:npm/optimist",
+    "type": "https://github.com/ossf/alpha-omega/subject/package_url/v0.1"
+  }
+}

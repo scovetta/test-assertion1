@@ -1,0 +1,33 @@
+{
+  "_type": "https://in-toto.io/Statement/v0.1",
+  "predicate": {
+    "content": {
+      "security_advisories": {}
+    },
+    "evidence": {
+      "_type": "https://github.com/ossf/alpha-omega/types/evidence/url/v0.1",
+      "content": {
+        "output": "{\"package\":{\"system\":\"NPM\",\"name\":\"ncp\"},\"owners\":[],\"version\":{\"version\":\"2.0.0\",\"symbolicVersions\":[\"latest\"],\"createdAt\":1424638526,\"refreshedAt\":1657311562,\"isDefault\":true,\"description\":\"Asynchronous recursive file copy utility.\",\"licenses\":[\"MIT\"],\"dependentCount\":14956,\"dependentCountDirect\":3771,\"dependentCountIndirect\":11280,\"links\":{\"origins\":[\"https://www.npmjs.com/package/ncp/v/2.0.0\"],\"homepage\":\"https://github.com/AvianFlu/ncp\",\"issues\":\"https://github.com/AvianFlu/ncp/issues\",\"repo\":\"https://github.com/avianflu/ncp\"},\"projects\":[{\"type\":\"GITHUB\",\"name\":\"AvianFlu/ncp\",\"observedAt\":1665666071,\"issues\":82,\"forks\":102,\"stars\":658,\"description\":\"Asynchronous recursive file copying with Node.js.\",\"license\":\"MIT\",\"link\":\"https://github.com/AvianFlu/ncp\"}],\"advisories\":[],\"relatedPackages\":{}},\"defaultVersion\":\"2.0.0\"}"
+      },
+      "reproducibility": "temporal",
+      "url": "https://deps.dev/_/s/npm/p/ncp/v/2.0.0"
+    },
+    "generator": {
+      "name": "openssf.omega.security_advisories",
+      "version": "0.1.0"
+    },
+    "operational": {
+      "environment": {
+        "hostname": "scovetta-xps",
+        "machine_identifier": "00000000-0000-0000-0000-cc96e5042f66"
+      },
+      "execution_start": "2022-11-18T22:04:16.620315Z",
+      "execution_stop": "2022-11-18T22:04:16.914205Z"
+    }
+  },
+  "predicateType": "https://github.com/ossf/alpha-omega/v0.1",
+  "subject": {
+    "purl": "pkg:npm/ncp",
+    "type": "https://github.com/ossf/alpha-omega/subject/package_url/v0.1"
+  }
+}

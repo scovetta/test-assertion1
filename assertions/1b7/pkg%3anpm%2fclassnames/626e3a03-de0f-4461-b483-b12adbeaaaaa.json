@@ -1,0 +1,33 @@
+{
+  "_type": "https://in-toto.io/Statement/v0.1",
+  "predicate": {
+    "content": {
+      "security_advisories": {}
+    },
+    "evidence": {
+      "_type": "https://github.com/ossf/alpha-omega/types/evidence/url/v0.1",
+      "content": {
+        "output": "{\"package\":{\"system\":\"NPM\",\"name\":\"classnames\"},\"owners\":[],\"version\":{\"version\":\"2.3.2\",\"symbolicVersions\":[\"latest\"],\"createdAt\":1663050888,\"refreshedAt\":1663051573,\"isDefault\":true,\"description\":\"A simple utility for conditionally joining classNames together\",\"licenses\":[\"MIT\"],\"dependentCount\":65936,\"dependentCountDirect\":27218,\"dependentCountIndirect\":40497,\"links\":{\"origins\":[\"https://www.npmjs.com/package/classnames/v/2.3.2\"],\"homepage\":\"https://github.com/JedWatson/classnames#readme\",\"issues\":\"https://github.com/JedWatson/classnames/issues\",\"repo\":\"https://github.com/jedwatson/classnames\"},\"projects\":[{\"type\":\"GITHUB\",\"name\":\"JedWatson/classnames\",\"observedAt\":1667735799,\"issues\":7,\"forks\":549,\"stars\":16004,\"description\":\"A simple javascript utility for conditionally joining classNames together\",\"license\":\"MIT\",\"link\":\"https://github.com/JedWatson/classnames\"}],\"advisories\":[],\"relatedPackages\":{}},\"defaultVersion\":\"2.3.2\"}"
+      },
+      "reproducibility": "temporal",
+      "url": "https://deps.dev/_/s/npm/p/classnames/v/2.3.2"
+    },
+    "generator": {
+      "name": "openssf.omega.security_advisories",
+      "version": "0.1.0"
+    },
+    "operational": {
+      "environment": {
+        "hostname": "scovetta-xps",
+        "machine_identifier": "00000000-0000-0000-0000-cc96e5042f66"
+      },
+      "execution_start": "2022-11-18T22:03:07.242206Z",
+      "execution_stop": "2022-11-18T22:03:07.524756Z"
+    }
+  },
+  "predicateType": "https://github.com/ossf/alpha-omega/v0.1",
+  "subject": {
+    "purl": "pkg:npm/classnames",
+    "type": "https://github.com/ossf/alpha-omega/subject/package_url/v0.1"
+  }
+}

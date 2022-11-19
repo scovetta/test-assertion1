@@ -1,0 +1,33 @@
+{
+  "_type": "https://in-toto.io/Statement/v0.1",
+  "predicate": {
+    "content": {
+      "security_advisories": {}
+    },
+    "evidence": {
+      "_type": "https://github.com/ossf/alpha-omega/types/evidence/url/v0.1",
+      "content": {
+        "output": "{\"package\":{\"system\":\"NPM\",\"name\":\"warning\"},\"owners\":[],\"version\":{\"version\":\"4.0.3\",\"symbolicVersions\":[\"latest\"],\"createdAt\":1549746508,\"refreshedAt\":1657599537,\"isDefault\":true,\"description\":\"A mirror of Facebook's Warning\",\"licenses\":[\"MIT\"],\"dependentCount\":35125,\"dependentCountDirect\":1780,\"dependentCountIndirect\":33495,\"links\":{\"origins\":[\"https://www.npmjs.com/package/warning/v/4.0.3\"],\"homepage\":\"https://github.com/BerkeleyTrue/warning\",\"issues\":\"https://github.com/BerkeleyTrue/warning/issues\",\"repo\":\"https://github.com/berkeleytrue/warning\"},\"projects\":[{\"type\":\"GITHUB\",\"name\":\"BerkeleyTrue/warning\",\"observedAt\":1667863811,\"issues\":3,\"forks\":25,\"stars\":213,\"description\":\"A mirror of Facebook's Warning\",\"license\":\"MIT\",\"link\":\"https://github.com/BerkeleyTrue/warning\"}],\"advisories\":[],\"relatedPackages\":{}},\"defaultVersion\":\"4.0.3\"}"
+      },
+      "reproducibility": "temporal",
+      "url": "https://deps.dev/_/s/npm/p/warning/v/4.0.3"
+    },
+    "generator": {
+      "name": "openssf.omega.security_advisories",
+      "version": "0.1.0"
+    },
+    "operational": {
+      "environment": {
+        "hostname": "scovetta-xps",
+        "machine_identifier": "00000000-0000-0000-0000-cc96e5042f66"
+      },
+      "execution_start": "2022-11-18T22:04:34.870439Z",
+      "execution_stop": "2022-11-18T22:04:35.210959Z"
+    }
+  },
+  "predicateType": "https://github.com/ossf/alpha-omega/v0.1",
+  "subject": {
+    "purl": "pkg:npm/warning",
+    "type": "https://github.com/ossf/alpha-omega/subject/package_url/v0.1"
+  }
+}

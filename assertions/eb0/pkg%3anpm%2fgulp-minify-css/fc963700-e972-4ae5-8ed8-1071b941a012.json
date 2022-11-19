@@ -1,0 +1,33 @@
+{
+  "_type": "https://in-toto.io/Statement/v0.1",
+  "predicate": {
+    "content": {
+      "security_advisories": {}
+    },
+    "evidence": {
+      "_type": "https://github.com/ossf/alpha-omega/types/evidence/url/v0.1",
+      "content": {
+        "output": "{\"package\":{\"system\":\"NPM\",\"name\":\"gulp-minify-css\"},\"owners\":[],\"version\":{\"version\":\"1.2.4\",\"symbolicVersions\":[\"latest\"],\"createdAt\":1456309503,\"refreshedAt\":1657435560,\"isDefault\":true,\"deprecated\":\"Please use gulp-clean-css\",\"description\":\"Minify css with clean-css.\",\"licenses\":[\"MIT\"],\"dependentCount\":646,\"dependentCountDirect\":560,\"dependentCountIndirect\":90,\"links\":{\"origins\":[\"https://www.npmjs.com/package/gulp-minify-css/v/1.2.4\"]},\"projects\":[],\"advisories\":[],\"relatedPackages\":{}},\"defaultVersion\":\"1.2.4\"}"
+      },
+      "reproducibility": "temporal",
+      "url": "https://deps.dev/_/s/npm/p/gulp-minify-css/v/1.2.4"
+    },
+    "generator": {
+      "name": "openssf.omega.security_advisories",
+      "version": "0.1.0"
+    },
+    "operational": {
+      "environment": {
+        "hostname": "scovetta-xps",
+        "machine_identifier": "00000000-0000-0000-0000-cc96e5042f66"
+      },
+      "execution_start": "2022-11-18T22:07:38.187334Z",
+      "execution_stop": "2022-11-18T22:07:38.450730Z"
+    }
+  },
+  "predicateType": "https://github.com/ossf/alpha-omega/v0.1",
+  "subject": {
+    "purl": "pkg:npm/gulp-minify-css",
+    "type": "https://github.com/ossf/alpha-omega/subject/package_url/v0.1"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "_type": "https://in-toto.io/Statement/v0.1",
+  "predicate": {
+    "content": {
+      "security_advisories": {}
+    },
+    "evidence": {
+      "_type": "https://github.com/ossf/alpha-omega/types/evidence/url/v0.1",
+      "content": {
+        "output": "{\"package\":{\"system\":\"NPM\",\"name\":\"create-hash\"},\"owners\":[],\"version\":{\"version\":\"1.2.0\",\"symbolicVersions\":[\"latest\"],\"createdAt\":1523451264,\"refreshedAt\":1655220955,\"isDefault\":true,\"description\":\"create hashes for browserify\",\"licenses\":[\"MIT\"],\"dependentCount\":84623,\"dependentCountDirect\":6556,\"dependentCountIndirect\":78175,\"links\":{\"origins\":[\"https://www.npmjs.com/package/create-hash/v/1.2.0\"],\"homepage\":\"https://github.com/crypto-browserify/createHash\",\"issues\":\"https://github.com/crypto-browserify/createHash/issues\",\"repo\":\"https://github.com/crypto-browserify/createhash\"},\"projects\":[{\"type\":\"GITHUB\",\"name\":\"crypto-browserify/createHash\",\"observedAt\":1666457868,\"issues\":5,\"forks\":37,\"stars\":48,\"description\":\"Node style hashes for use in the browser, with native hash functions in node\",\"license\":\"MIT\",\"link\":\"https://github.com/crypto-browserify/createHash\"}],\"advisories\":[],\"relatedPackages\":{}},\"defaultVersion\":\"1.2.0\"}"
+      },
+      "reproducibility": "temporal",
+      "url": "https://deps.dev/_/s/npm/p/create-hash/v/1.2.0"
+    },
+    "generator": {
+      "name": "openssf.omega.security_advisories",
+      "version": "0.1.0"
+    },
+    "operational": {
+      "environment": {
+        "hostname": "scovetta-xps",
+        "machine_identifier": "00000000-0000-0000-0000-cc96e5042f66"
+      },
+      "execution_start": "2022-11-18T22:07:02.776478Z",
+      "execution_stop": "2022-11-18T22:07:03.041817Z"
+    }
+  },
+  "predicateType": "https://github.com/ossf/alpha-omega/v0.1",
+  "subject": {
+    "purl": "pkg:npm/create-hash",
+    "type": "https://github.com/ossf/alpha-omega/subject/package_url/v0.1"
+  }
+}

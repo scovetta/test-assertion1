@@ -1,0 +1,33 @@
+{
+  "_type": "https://in-toto.io/Statement/v0.1",
+  "predicate": {
+    "content": {
+      "security_advisories": {}
+    },
+    "evidence": {
+      "_type": "https://github.com/ossf/alpha-omega/types/evidence/url/v0.1",
+      "content": {
+        "output": "{\"package\":{\"system\":\"NPM\",\"name\":\"btoa\"},\"owners\":[],\"version\":{\"version\":\"1.2.1\",\"symbolicVersions\":[\"latest\"],\"createdAt\":1522212847,\"refreshedAt\":1657438859,\"isDefault\":true,\"description\":\"btoa for Node.JS (it's a one-liner)\",\"licenses\":[\"Apache-2.0 OR MIT\"],\"dependentCount\":5820,\"dependentCountDirect\":1317,\"dependentCountIndirect\":4526,\"links\":{\"origins\":[\"https://www.npmjs.com/package/btoa/v/1.2.1\"],\"homepage\":\"https://git.coolaj86.com/coolaj86/btoa.js.git\",\"repo\":\"git://git.coolaj86.com/coolaj86/btoa.js.git\"},\"projects\":[],\"advisories\":[],\"relatedPackages\":{}},\"defaultVersion\":\"1.2.1\"}"
+      },
+      "reproducibility": "temporal",
+      "url": "https://deps.dev/_/s/npm/p/btoa/v/1.2.1"
+    },
+    "generator": {
+      "name": "openssf.omega.security_advisories",
+      "version": "0.1.0"
+    },
+    "operational": {
+      "environment": {
+        "hostname": "scovetta-xps",
+        "machine_identifier": "00000000-0000-0000-0000-cc96e5042f66"
+      },
+      "execution_start": "2022-11-18T22:07:22.387521Z",
+      "execution_stop": "2022-11-18T22:07:22.644810Z"
+    }
+  },
+  "predicateType": "https://github.com/ossf/alpha-omega/v0.1",
+  "subject": {
+    "purl": "pkg:npm/btoa",
+    "type": "https://github.com/ossf/alpha-omega/subject/package_url/v0.1"
+  }
+}

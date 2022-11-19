@@ -1,0 +1,33 @@
+{
+  "_type": "https://in-toto.io/Statement/v0.1",
+  "predicate": {
+    "content": {
+      "security_advisories": {}
+    },
+    "evidence": {
+      "_type": "https://github.com/ossf/alpha-omega/types/evidence/url/v0.1",
+      "content": {
+        "output": "{\"package\":{\"system\":\"NPM\",\"name\":\"traverse\"},\"owners\":[],\"version\":{\"version\":\"0.6.7\",\"symbolicVersions\":[\"latest\"],\"createdAt\":1665643259,\"refreshedAt\":1665643844,\"isDefault\":true,\"description\":\"traverse and transform objects by visiting every node on a recursive walk\",\"licenses\":[\"MIT\"],\"dependentCount\":16785,\"dependentCountDirect\":1274,\"dependentCountIndirect\":15580,\"links\":{\"origins\":[\"https://www.npmjs.com/package/traverse/v/0.6.7\"],\"homepage\":\"https://github.com/ljharb/js-traverse\",\"issues\":\"https://github.com/ljharb/js-traverse/issues\",\"repo\":\"https://github.com/ljharb/js-traverse\"},\"projects\":[{\"type\":\"GITHUB\",\"name\":\"ljharb/js-traverse\",\"observedAt\":1667009418,\"issues\":0,\"forks\":1,\"stars\":5,\"license\":\"non-standard\",\"link\":\"https://github.com/ljharb/js-traverse\"}],\"advisories\":[],\"relatedPackages\":{}},\"defaultVersion\":\"0.6.7\"}"
+      },
+      "reproducibility": "temporal",
+      "url": "https://deps.dev/_/s/npm/p/traverse/v/0.6.7"
+    },
+    "generator": {
+      "name": "openssf.omega.security_advisories",
+      "version": "0.1.0"
+    },
+    "operational": {
+      "environment": {
+        "hostname": "scovetta-xps",
+        "machine_identifier": "00000000-0000-0000-0000-cc96e5042f66"
+      },
+      "execution_start": "2022-11-18T22:05:46.638830Z",
+      "execution_stop": "2022-11-18T22:05:46.926615Z"
+    }
+  },
+  "predicateType": "https://github.com/ossf/alpha-omega/v0.1",
+  "subject": {
+    "purl": "pkg:npm/traverse",
+    "type": "https://github.com/ossf/alpha-omega/subject/package_url/v0.1"
+  }
+}

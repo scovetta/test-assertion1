@@ -1,0 +1,33 @@
+{
+  "_type": "https://in-toto.io/Statement/v0.1",
+  "predicate": {
+    "content": {
+      "security_advisories": {}
+    },
+    "evidence": {
+      "_type": "https://github.com/ossf/alpha-omega/types/evidence/url/v0.1",
+      "content": {
+        "output": "{\"package\":{\"system\":\"NPM\",\"name\":\"eslint-plugin-promise\"},\"owners\":[],\"version\":{\"version\":\"6.1.1\",\"symbolicVersions\":[\"latest\"],\"createdAt\":1666213574,\"refreshedAt\":1666213934,\"isDefault\":true,\"description\":\"Enforce best practices for JavaScript promises\",\"licenses\":[\"ISC\"],\"dependentCount\":2480,\"dependentCountDirect\":1052,\"dependentCountIndirect\":1468,\"links\":{\"origins\":[\"https://www.npmjs.com/package/eslint-plugin-promise/v/6.1.1\"],\"homepage\":\"https://github.com/eslint-community/eslint-plugin-promise\",\"issues\":\"https://github.com/eslint-community/eslint-plugin-promise/issues\",\"repo\":\"https://github.com/eslint-community/eslint-plugin-promise\"},\"projects\":[{\"type\":\"GITHUB\",\"name\":\"eslint-community/eslint-plugin-promise\",\"observedAt\":1668834726,\"issues\":43,\"forks\":95,\"stars\":770,\"description\":\"Enforce best practices for JavaScript promises\",\"license\":\"ISC\",\"link\":\"https://github.com/eslint-community/eslint-plugin-promise\"}],\"advisories\":[],\"relatedPackages\":{}},\"defaultVersion\":\"6.1.1\"}"
+      },
+      "reproducibility": "temporal",
+      "url": "https://deps.dev/_/s/npm/p/eslint-plugin-promise/v/6.1.1"
+    },
+    "generator": {
+      "name": "openssf.omega.security_advisories",
+      "version": "0.1.0"
+    },
+    "operational": {
+      "environment": {
+        "hostname": "scovetta-xps",
+        "machine_identifier": "00000000-0000-0000-0000-cc96e5042f66"
+      },
+      "execution_start": "2022-11-18T22:05:01.139068Z",
+      "execution_stop": "2022-11-18T22:05:01.448218Z"
+    }
+  },
+  "predicateType": "https://github.com/ossf/alpha-omega/v0.1",
+  "subject": {
+    "purl": "pkg:npm/eslint-plugin-promise",
+    "type": "https://github.com/ossf/alpha-omega/subject/package_url/v0.1"
+  }
+}

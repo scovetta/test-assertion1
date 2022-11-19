@@ -1,0 +1,33 @@
+{
+  "_type": "https://in-toto.io/Statement/v0.1",
+  "predicate": {
+    "content": {
+      "security_advisories": {}
+    },
+    "evidence": {
+      "_type": "https://github.com/ossf/alpha-omega/types/evidence/url/v0.1",
+      "content": {
+        "output": "{\"package\":{\"system\":\"NPM\",\"name\":\"global\"},\"owners\":[],\"version\":{\"version\":\"4.4.0\",\"symbolicVersions\":[\"latest\"],\"createdAt\":1560166008,\"refreshedAt\":1657448163,\"isDefault\":true,\"description\":\"Require global variables\",\"licenses\":[\"MIT\"],\"dependentCount\":36864,\"dependentCountDirect\":3140,\"dependentCountIndirect\":33865,\"links\":{\"origins\":[\"https://www.npmjs.com/package/global/v/4.4.0\"],\"homepage\":\"https://github.com/Raynos/global\",\"issues\":\"https://github.com/Raynos/global/issues\",\"repo\":\"https://github.com/raynos/global\"},\"projects\":[{\"type\":\"GITHUB\",\"name\":\"Raynos/global\",\"observedAt\":1664740851,\"issues\":6,\"forks\":24,\"stars\":245,\"description\":\"Require global variables\",\"license\":\"MIT\",\"link\":\"https://github.com/Raynos/global\"}],\"advisories\":[],\"relatedPackages\":{}},\"defaultVersion\":\"4.4.0\"}"
+      },
+      "reproducibility": "temporal",
+      "url": "https://deps.dev/_/s/npm/p/global/v/4.4.0"
+    },
+    "generator": {
+      "name": "openssf.omega.security_advisories",
+      "version": "0.1.0"
+    },
+    "operational": {
+      "environment": {
+        "hostname": "scovetta-xps",
+        "machine_identifier": "00000000-0000-0000-0000-cc96e5042f66"
+      },
+      "execution_start": "2022-11-18T22:05:13.181730Z",
+      "execution_stop": "2022-11-18T22:05:13.459823Z"
+    }
+  },
+  "predicateType": "https://github.com/ossf/alpha-omega/v0.1",
+  "subject": {
+    "purl": "pkg:npm/global",
+    "type": "https://github.com/ossf/alpha-omega/subject/package_url/v0.1"
+  }
+}

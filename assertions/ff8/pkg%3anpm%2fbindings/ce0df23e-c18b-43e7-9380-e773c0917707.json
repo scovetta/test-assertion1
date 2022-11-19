@@ -1,0 +1,33 @@
+{
+  "_type": "https://in-toto.io/Statement/v0.1",
+  "predicate": {
+    "content": {
+      "security_advisories": {}
+    },
+    "evidence": {
+      "_type": "https://github.com/ossf/alpha-omega/types/evidence/url/v0.1",
+      "content": {
+        "output": "{\"package\":{\"system\":\"NPM\",\"name\":\"bindings\"},\"owners\":[],\"version\":{\"version\":\"1.5.0\",\"symbolicVersions\":[\"latest\"],\"createdAt\":1551308084,\"refreshedAt\":1658690476,\"isDefault\":true,\"description\":\"Helper module for loading your native module's .node file\",\"licenses\":[\"MIT\"],\"dependentCount\":116836,\"dependentCountDirect\":2998,\"dependentCountIndirect\":113910,\"links\":{\"origins\":[\"https://www.npmjs.com/package/bindings/v/1.5.0\"],\"homepage\":\"https://github.com/TooTallNate/node-bindings\",\"issues\":\"https://github.com/TooTallNate/node-bindings/issues\",\"repo\":\"https://github.com/tootallnate/node-bindings\"},\"projects\":[{\"type\":\"GITHUB\",\"name\":\"TooTallNate/node-bindings\",\"observedAt\":1665747119,\"issues\":26,\"forks\":88,\"stars\":376,\"description\":\"Helper module for loading your native module's `.node` file\",\"license\":\"MIT\",\"link\":\"https://github.com/TooTallNate/node-bindings\"}],\"advisories\":[],\"relatedPackages\":{}},\"defaultVersion\":\"1.5.0\"}"
+      },
+      "reproducibility": "temporal",
+      "url": "https://deps.dev/_/s/npm/p/bindings/v/1.5.0"
+    },
+    "generator": {
+      "name": "openssf.omega.security_advisories",
+      "version": "0.1.0"
+    },
+    "operational": {
+      "environment": {
+        "hostname": "scovetta-xps",
+        "machine_identifier": "00000000-0000-0000-0000-cc96e5042f66"
+      },
+      "execution_start": "2022-11-18T22:04:30.292275Z",
+      "execution_stop": "2022-11-18T22:04:30.599024Z"
+    }
+  },
+  "predicateType": "https://github.com/ossf/alpha-omega/v0.1",
+  "subject": {
+    "purl": "pkg:npm/bindings",
+    "type": "https://github.com/ossf/alpha-omega/subject/package_url/v0.1"
+  }
+}

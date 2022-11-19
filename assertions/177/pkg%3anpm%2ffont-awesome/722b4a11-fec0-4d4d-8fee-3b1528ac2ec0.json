@@ -1,0 +1,33 @@
+{
+  "_type": "https://in-toto.io/Statement/v0.1",
+  "predicate": {
+    "content": {
+      "security_advisories": {}
+    },
+    "evidence": {
+      "_type": "https://github.com/ossf/alpha-omega/types/evidence/url/v0.1",
+      "content": {
+        "output": "{\"package\":{\"system\":\"NPM\",\"name\":\"font-awesome\"},\"owners\":[],\"version\":{\"version\":\"4.7.0\",\"symbolicVersions\":[\"latest\"],\"createdAt\":1477344820,\"refreshedAt\":1657233306,\"isDefault\":true,\"description\":\"The iconic font and CSS framework\",\"licenses\":[\"MIT AND OFL-1.1\"],\"dependentCount\":6006,\"dependentCountDirect\":4028,\"dependentCountIndirect\":2047,\"links\":{\"origins\":[\"https://www.npmjs.com/package/font-awesome/v/4.7.0\"],\"homepage\":\"http://fontawesome.io/\",\"issues\":\"http://github.com/FortAwesome/Font-Awesome/issues\",\"repo\":\"https://github.com/fortawesome/font-awesome\"},\"projects\":[{\"type\":\"GITHUB\",\"name\":\"FortAwesome/Font-Awesome\",\"observedAt\":1667723689,\"issues\":5283,\"forks\":12198,\"stars\":70375,\"description\":\"The iconic SVG, font, and CSS toolkit\",\"license\":\"non-standard\",\"link\":\"https://github.com/FortAwesome/Font-Awesome\"}],\"advisories\":[],\"relatedPackages\":{}},\"defaultVersion\":\"4.7.0\"}"
+      },
+      "reproducibility": "temporal",
+      "url": "https://deps.dev/_/s/npm/p/font-awesome/v/4.7.0"
+    },
+    "generator": {
+      "name": "openssf.omega.security_advisories",
+      "version": "0.1.0"
+    },
+    "operational": {
+      "environment": {
+        "hostname": "scovetta-xps",
+        "machine_identifier": "00000000-0000-0000-0000-cc96e5042f66"
+      },
+      "execution_start": "2022-11-18T22:04:07.177000Z",
+      "execution_stop": "2022-11-18T22:04:07.471071Z"
+    }
+  },
+  "predicateType": "https://github.com/ossf/alpha-omega/v0.1",
+  "subject": {
+    "purl": "pkg:npm/font-awesome",
+    "type": "https://github.com/ossf/alpha-omega/subject/package_url/v0.1"
+  }
+}

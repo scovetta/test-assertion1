@@ -1,0 +1,33 @@
+{
+  "_type": "https://in-toto.io/Statement/v0.1",
+  "predicate": {
+    "content": {
+      "security_advisories": {}
+    },
+    "evidence": {
+      "_type": "https://github.com/ossf/alpha-omega/types/evidence/url/v0.1",
+      "content": {
+        "output": "{\"package\":{\"system\":\"NPM\",\"name\":\"json-stable-stringify\"},\"owners\":[],\"version\":{\"version\":\"1.0.2\",\"symbolicVersions\":[\"latest\"],\"createdAt\":1667928081,\"refreshedAt\":1667928737,\"isDefault\":true,\"description\":\"deterministic JSON.stringify() with custom sorting to get deterministic hashes from stringified results\",\"licenses\":[\"MIT\"],\"dependentCount\":56275,\"dependentCountDirect\":4127,\"dependentCountIndirect\":52253,\"links\":{\"origins\":[\"https://www.npmjs.com/package/json-stable-stringify/v/1.0.2\"],\"homepage\":\"https://github.com/ljharb/json-stable-stringify\",\"issues\":\"https://github.com/ljharb/json-stable-stringify/issues\",\"repo\":\"https://github.com/ljharb/json-stable-stringify\"},\"projects\":[{\"type\":\"GITHUB\",\"name\":\"ljharb/json-stable-stringify\",\"observedAt\":1668676919,\"issues\":0,\"forks\":0,\"stars\":5,\"license\":\"non-standard\",\"link\":\"https://github.com/ljharb/json-stable-stringify\"}],\"advisories\":[],\"relatedPackages\":{}},\"defaultVersion\":\"1.0.2\"}"
+      },
+      "reproducibility": "temporal",
+      "url": "https://deps.dev/_/s/npm/p/json-stable-stringify/v/1.0.2"
+    },
+    "generator": {
+      "name": "openssf.omega.security_advisories",
+      "version": "0.1.0"
+    },
+    "operational": {
+      "environment": {
+        "hostname": "scovetta-xps",
+        "machine_identifier": "00000000-0000-0000-0000-cc96e5042f66"
+      },
+      "execution_start": "2022-11-18T22:05:59.115268Z",
+      "execution_stop": "2022-11-18T22:05:59.373771Z"
+    }
+  },
+  "predicateType": "https://github.com/ossf/alpha-omega/v0.1",
+  "subject": {
+    "purl": "pkg:npm/json-stable-stringify",
+    "type": "https://github.com/ossf/alpha-omega/subject/package_url/v0.1"
+  }
+}

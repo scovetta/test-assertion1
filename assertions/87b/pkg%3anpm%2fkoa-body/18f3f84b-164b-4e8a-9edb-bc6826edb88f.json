@@ -1,0 +1,33 @@
+{
+  "_type": "https://in-toto.io/Statement/v0.1",
+  "predicate": {
+    "content": {
+      "security_advisories": {}
+    },
+    "evidence": {
+      "_type": "https://github.com/ossf/alpha-omega/types/evidence/url/v0.1",
+      "content": {
+        "output": "{\"package\":{\"system\":\"NPM\",\"name\":\"koa-body\"},\"owners\":[],\"version\":{\"version\":\"6.0.1\",\"symbolicVersions\":[\"latest\"],\"createdAt\":1667004119,\"refreshedAt\":1667004449,\"isDefault\":true,\"description\":\"A Koa body parser middleware. Supports multipart, urlencoded and JSON request bodies.\",\"licenses\":[\"MIT\"],\"dependentCount\":18,\"dependentCountDirect\":13,\"dependentCountIndirect\":5,\"links\":{\"origins\":[\"https://www.npmjs.com/package/koa-body/v/6.0.1\"],\"homepage\":\"https://github.com/koajs/koa-body#readme\",\"issues\":\"https://github.com/koajs/koa-body/issues\",\"repo\":\"https://github.com/koajs/koa-body\"},\"projects\":[{\"type\":\"GITHUB\",\"name\":\"koajs/koa-body\",\"observedAt\":1668744066,\"issues\":38,\"forks\":126,\"stars\":881,\"description\":\"koa body parser middleware\",\"license\":\"MIT\",\"link\":\"https://github.com/koajs/koa-body\"}],\"advisories\":[],\"relatedPackages\":{}},\"defaultVersion\":\"6.0.1\"}"
+      },
+      "reproducibility": "temporal",
+      "url": "https://deps.dev/_/s/npm/p/koa-body/v/6.0.1"
+    },
+    "generator": {
+      "name": "openssf.omega.security_advisories",
+      "version": "0.1.0"
+    },
+    "operational": {
+      "environment": {
+        "hostname": "scovetta-xps",
+        "machine_identifier": "00000000-0000-0000-0000-cc96e5042f66"
+      },
+      "execution_start": "2022-11-18T22:07:29.954761Z",
+      "execution_stop": "2022-11-18T22:07:30.216518Z"
+    }
+  },
+  "predicateType": "https://github.com/ossf/alpha-omega/v0.1",
+  "subject": {
+    "purl": "pkg:npm/koa-body",
+    "type": "https://github.com/ossf/alpha-omega/subject/package_url/v0.1"
+  }
+}

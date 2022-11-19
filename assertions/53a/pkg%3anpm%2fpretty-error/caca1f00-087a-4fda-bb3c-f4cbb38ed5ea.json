@@ -1,0 +1,33 @@
+{
+  "_type": "https://in-toto.io/Statement/v0.1",
+  "predicate": {
+    "content": {
+      "security_advisories": {}
+    },
+    "evidence": {
+      "_type": "https://github.com/ossf/alpha-omega/types/evidence/url/v0.1",
+      "content": {
+        "output": "{\"package\":{\"system\":\"NPM\",\"name\":\"pretty-error\"},\"owners\":[],\"version\":{\"version\":\"4.0.0\",\"symbolicVersions\":[\"latest\"],\"createdAt\":1635006631,\"refreshedAt\":1657352124,\"isDefault\":true,\"description\":\"See nodejs errors with less clutter\",\"licenses\":[\"MIT\"],\"dependentCount\":7981,\"dependentCountDirect\":95,\"dependentCountIndirect\":7894,\"links\":{\"origins\":[\"https://www.npmjs.com/package/pretty-error/v/4.0.0\"],\"homepage\":\"https://github.com/AriaMinaei/pretty-error#readme\",\"issues\":\"https://github.com/AriaMinaei/pretty-error/issues\",\"repo\":\"https://github.com/ariaminaei/pretty-error\"},\"projects\":[{\"type\":\"GITHUB\",\"name\":\"AriaMinaei/pretty-error\",\"observedAt\":1667724690,\"issues\":25,\"forks\":48,\"stars\":1483,\"description\":\"See node.js errors with less clutter\",\"license\":\"MIT\",\"link\":\"https://github.com/AriaMinaei/pretty-error\"}],\"advisories\":[],\"relatedPackages\":{}},\"defaultVersion\":\"4.0.0\"}"
+      },
+      "reproducibility": "temporal",
+      "url": "https://deps.dev/_/s/npm/p/pretty-error/v/4.0.0"
+    },
+    "generator": {
+      "name": "openssf.omega.security_advisories",
+      "version": "0.1.0"
+    },
+    "operational": {
+      "environment": {
+        "hostname": "scovetta-xps",
+        "machine_identifier": "00000000-0000-0000-0000-cc96e5042f66"
+      },
+      "execution_start": "2022-11-18T22:08:22.213193Z",
+      "execution_stop": "2022-11-18T22:08:22.489414Z"
+    }
+  },
+  "predicateType": "https://github.com/ossf/alpha-omega/v0.1",
+  "subject": {
+    "purl": "pkg:npm/pretty-error",
+    "type": "https://github.com/ossf/alpha-omega/subject/package_url/v0.1"
+  }
+}

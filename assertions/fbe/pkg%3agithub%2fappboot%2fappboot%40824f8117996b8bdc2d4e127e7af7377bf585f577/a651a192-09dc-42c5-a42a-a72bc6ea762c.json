@@ -1,0 +1,50 @@
+{
+  "_type": "https://in-toto.io/Statement/v0.1",
+  "predicate": {
+    "content": {
+      "scorecard_data": {
+        "binary_artifacts": "10",
+        "branch_protection": "0",
+        "cii_best_practices": "0",
+        "code_review": "0",
+        "dangerous_workflow": "10",
+        "dependency_update_tool": "0",
+        "fuzzing": "0",
+        "license": "10",
+        "maintained": "1",
+        "packaging": "-1",
+        "pinned_dependencies": "2",
+        "sast": "0",
+        "security_policy": "0",
+        "signed_releases": "-1",
+        "token_permissions": "0",
+        "vulnerabilities": "10"
+      }
+    },
+    "evidence": {
+      "_type": "https://github.com/ossf/alpha-omega/types/evidence/file/v0.1",
+      "content": {
+        "output": "{\"date\":\"2022-10-31\",\"repo\":{\"name\":\"github.com/appboot/appboot\",\"commit\":\"824f8117996b8bdc2d4e127e7af7377bf585f577\"},\"scorecard\":{\"version\":\"v4.8.0-30-g038e84e\",\"commit\":\"038e84e7f5dbf426b4e160ac3b6085686185241c\"},\"checks\":[{\"name\":\"Maintained\",\"documentation\":{\"short\":\"Determines if the project is \\\"actively maintained\\\".\",\"url\":\"https://github.com/ossf/scorecard/blob/038e84e7f5dbf426b4e160ac3b6085686185241c/docs/checks.md#maintained\"},\"score\":\"1\",\"reason\":\"2 commit(s) out of 30 and 0 issue activity out of 0 found in the last 90 days -- score normalized to 1\",\"details\":[]},{\"name\":\"Code-Review\",\"documentation\":{\"short\":\"Determines if the project requires code review before pull requests (aka merge requests) are merged.\",\"url\":\"https://github.com/ossf/scorecard/blob/038e84e7f5dbf426b4e160ac3b6085686185241c/docs/checks.md#code-review\"},\"score\":\"0\",\"reason\":\"0 out of last 30 changesets reviewed before merge -- score normalized to 0\",\"details\":[]},{\"name\":\"CII-Best-Practices\",\"documentation\":{\"short\":\"Determines if the project has an OpenSSF (formerly CII) Best Practices Badge.\",\"url\":\"https://github.com/ossf/scorecard/blob/038e84e7f5dbf426b4e160ac3b6085686185241c/docs/checks.md#cii-best-practices\"},\"score\":\"0\",\"reason\":\"no badge detected\",\"details\":[]},{\"name\":\"Vulnerabilities\",\"documentation\":{\"short\":\"Determines if the project has open, known unfixed vulnerabilities.\",\"url\":\"https://github.com/ossf/scorecard/blob/038e84e7f5dbf426b4e160ac3b6085686185241c/docs/checks.md#vulnerabilities\"},\"score\":\"10\",\"reason\":\"no vulnerabilities detected\",\"details\":[]},{\"name\":\"Signed-Releases\",\"documentation\":{\"short\":\"Determines if the project cryptographically signs release artifacts.\",\"url\":\"https://github.com/ossf/scorecard/blob/038e84e7f5dbf426b4e160ac3b6085686185241c/docs/checks.md#signed-releases\"},\"score\":\"-1\",\"reason\":\"no releases found\",\"details\":[\"Warn: no GitHub releases found\"]},{\"name\":\"Branch-Protection\",\"documentation\":{\"short\":\"Determines if the default and release branches are protected with GitHub's branch protection settings.\",\"url\":\"https://github.com/ossf/scorecard/blob/038e84e7f5dbf426b4e160ac3b6085686185241c/docs/checks.md#branch-protection\"},\"score\":\"0\",\"reason\":\"branch protection not enabled on development/release branches\",\"details\":[\"Warn: branch protection not enabled for branch 'master'\"]},{\"name\":\"Dangerous-Workflow\",\"documentation\":{\"short\":\"Determines if the project's GitHub Action workflows avoid dangerous patterns.\",\"url\":\"https://github.com/ossf/scorecard/blob/038e84e7f5dbf426b4e160ac3b6085686185241c/docs/checks.md#dangerous-workflow\"},\"score\":\"10\",\"reason\":\"no dangerous workflow patterns detected\",\"details\":[]},{\"name\":\"Packaging\",\"documentation\":{\"short\":\"Determines if the project is published as a package that others can easily download, install, easily update, and uninstall.\",\"url\":\"https://github.com/ossf/scorecard/blob/038e84e7f5dbf426b4e160ac3b6085686185241c/docs/checks.md#packaging\"},\"score\":\"-1\",\"reason\":\"no published package detected\",\"details\":[\"Warn: no GitHub publishing workflow detected\"]},{\"name\":\"License\",\"documentation\":{\"short\":\"Determines if the project has defined a license.\",\"url\":\"https://github.com/ossf/scorecard/blob/038e84e7f5dbf426b4e160ac3b6085686185241c/docs/checks.md#license\"},\"score\":\"10\",\"reason\":\"license file detected\",\"details\":[\"Info: : LICENSE:1\"]},{\"name\":\"Token-Permissions\",\"documentation\":{\"short\":\"Determines if the project's workflows follow the principle of least privilege.\",\"url\":\"https://github.com/ossf/scorecard/blob/038e84e7f5dbf426b4e160ac3b6085686185241c/docs/checks.md#token-permissions\"},\"score\":\"0\",\"reason\":\"non read-only tokens detected in GitHub workflows\",\"details\":[\"Warn: no topLevel permission defined: .github/workflows/go.yml:1: update your workflow using https://app.stepsecurity.io/secureworkflow/appboot/appboot/go.yml/master?enable=permissions\"]},{\"name\":\"SAST\",\"documentation\":{\"short\":\"Determines if the project uses static code analysis.\",\"url\":\"https://github.com/ossf/scorecard/blob/038e84e7f5dbf426b4e160ac3b6085686185241c/docs/checks.md#sast\"},\"score\":\"0\",\"reason\":\"no SAST tool detected\",\"details\":[\"Warn: no pull requests merged into dev branch\",\"Warn: CodeQL tool not detected\"]},{\"name\":\"Binary-Artifacts\",\"documentation\":{\"short\":\"Determines if the project has generated executable (binary) artifacts in the source repository.\",\"url\":\"https://github.com/ossf/scorecard/blob/038e84e7f5dbf426b4e160ac3b6085686185241c/docs/checks.md#binary-artifacts\"},\"score\":\"10\",\"reason\":\"no binaries found in the repo\",\"details\":[]},{\"name\":\"Security-Policy\",\"documentation\":{\"short\":\"Determines if the project has published a security policy.\",\"url\":\"https://github.com/ossf/scorecard/blob/038e84e7f5dbf426b4e160ac3b6085686185241c/docs/checks.md#security-policy\"},\"score\":\"0\",\"reason\":\"security policy file not detected\",\"details\":[]},{\"name\":\"Dependency-Update-Tool\",\"documentation\":{\"short\":\"Determines if the project uses a dependency update tool.\",\"url\":\"https://github.com/ossf/scorecard/blob/038e84e7f5dbf426b4e160ac3b6085686185241c/docs/checks.md#dependency-update-tool\"},\"score\":\"0\",\"reason\":\"no update tool detected\",\"details\":[\"Warn: Config file not detected in source location for dependabot, renovatebot, Sonatype Lift, or\\n\\t\\t\\tPyUp (Python). We recommend setting this configuration in code so it can be easily verified by others.\"]},{\"name\":\"Fuzzing\",\"documentation\":{\"short\":\"Determines if the project uses fuzzing.\",\"url\":\"https://github.com/ossf/scorecard/blob/038e84e7f5dbf426b4e160ac3b6085686185241c/docs/checks.md#fuzzing\"},\"score\":\"0\",\"reason\":\"project is not fuzzed\",\"details\":[]},{\"name\":\"Pinned-Dependencies\",\"documentation\":{\"short\":\"Determines if the project has declared and pinned the dependencies of its build process.\",\"url\":\"https://github.com/ossf/scorecard/blob/038e84e7f5dbf426b4e160ac3b6085686185241c/docs/checks.md#pinned-dependencies\"},\"score\":\"2\",\"reason\":\"dependency not pinned by hash detected -- score normalized to 2\",\"details\":[\"Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/go.yml:15: update your workflow using https://app.stepsecurity.io/secureworkflow/appboot/appboot/go.yml/master?enable=pin\",\"Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/go.yml:21: update your workflow using https://app.stepsecurity.io/secureworkflow/appboot/appboot/go.yml/master?enable=pin\",\"Warn: containerImage not pinned by hash: build/package/Dockerfile:2: pin your Docker image by updating golang:1.18.1-alpine to golang:1.18.1-alpine@sha256:42d35674864fbb577594b60b84ddfba1be52b4d4298c961b46ba95e9fb4712e8\",\"Warn: containerImage not pinned by hash: build/package/Dockerfile:10: pin your Docker image by updating node:16.14-alpine to node:16.14-alpine@sha256:28bed508446db2ee028d08e76fb47b935defa26a84986ca050d2596ea67fd506\",\"Warn: containerImage not pinned by hash: build/package/Dockerfile:15: pin your Docker image by updating alpine to alpine@sha256:bc41182d7ef5ffc53a40b044e725193bc10142a1243f395ee852a8d9730fc2ad\",\"Warn: npmCommand not pinned by hash: build/package/Dockerfile:13\",\"Warn: downloadThenRun not pinned by hash: .github/workflows/go.yml:32\",\"Info: Third-party GitHubActions are pinned\"]}],\"metadata\":[],\"score\":3.3}\n"
+      },
+      "filename": "/tmp/omega-4f85t93m",
+      "reproducibility": "unknown"
+    },
+    "generator": {
+      "name": "openssf.omega.security_scorecards",
+      "version": "0.1.0"
+    },
+    "operational": {
+      "environment": {
+        "hostname": "scovetta-xps",
+        "machine_identifier": "00000000-0000-0000-0000-cc96e5042f66"
+      },
+      "execution_start": "2022-11-18T22:02:50.746877Z",
+      "execution_stop": "2022-11-18T22:02:50.747677Z"
+    }
+  },
+  "predicateType": "https://github.com/ossf/alpha-omega/v0.1",
+  "subject": {
+    "purl": "pkg:github/appboot/appboot@824f8117996b8bdc2d4e127e7af7377bf585f577",
+    "type": "https://github.com/ossf/alpha-omega/subject/package_url/v0.1"
+  }
+}

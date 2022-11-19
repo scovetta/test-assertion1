@@ -1,0 +1,33 @@
+{
+  "_type": "https://in-toto.io/Statement/v0.1",
+  "predicate": {
+    "content": {
+      "security_advisories": {}
+    },
+    "evidence": {
+      "_type": "https://github.com/ossf/alpha-omega/types/evidence/url/v0.1",
+      "content": {
+        "output": "{\"package\":{\"system\":\"NPM\",\"name\":\"clean-css\"},\"owners\":[],\"version\":{\"version\":\"5.3.1\",\"symbolicVersions\":[\"latest\"],\"createdAt\":1657704766,\"refreshedAt\":1658592186,\"isDefault\":true,\"description\":\"A well-tested CSS minifier\",\"licenses\":[\"MIT\"],\"dependentCount\":8887,\"dependentCountDirect\":416,\"dependentCountIndirect\":8486,\"links\":{\"origins\":[\"https://www.npmjs.com/package/clean-css/v/5.3.1\"],\"homepage\":\"https://github.com/clean-css/clean-css\",\"issues\":\"https://github.com/clean-css/clean-css/issues\",\"repo\":\"https://github.com/clean-css/clean-css\"},\"projects\":[{\"type\":\"GITHUB\",\"name\":\"clean-css/clean-css\",\"observedAt\":1668624750,\"issues\":11,\"forks\":332,\"stars\":3997,\"description\":\"Fast and efficient CSS optimizer for node.js and the Web\",\"license\":\"MIT\",\"link\":\"https://github.com/clean-css/clean-css\"}],\"advisories\":[],\"relatedPackages\":{}},\"defaultVersion\":\"5.3.1\"}"
+      },
+      "reproducibility": "temporal",
+      "url": "https://deps.dev/_/s/npm/p/clean-css/v/5.3.1"
+    },
+    "generator": {
+      "name": "openssf.omega.security_advisories",
+      "version": "0.1.0"
+    },
+    "operational": {
+      "environment": {
+        "hostname": "scovetta-xps",
+        "machine_identifier": "00000000-0000-0000-0000-cc96e5042f66"
+      },
+      "execution_start": "2022-11-18T22:04:57.521340Z",
+      "execution_stop": "2022-11-18T22:04:57.808130Z"
+    }
+  },
+  "predicateType": "https://github.com/ossf/alpha-omega/v0.1",
+  "subject": {
+    "purl": "pkg:npm/clean-css",
+    "type": "https://github.com/ossf/alpha-omega/subject/package_url/v0.1"
+  }
+}

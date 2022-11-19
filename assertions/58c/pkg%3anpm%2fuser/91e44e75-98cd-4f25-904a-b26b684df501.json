@@ -1,0 +1,33 @@
+{
+  "_type": "https://in-toto.io/Statement/v0.1",
+  "predicate": {
+    "content": {
+      "security_advisories": {}
+    },
+    "evidence": {
+      "_type": "https://github.com/ossf/alpha-omega/types/evidence/url/v0.1",
+      "content": {
+        "output": "{\"package\":{\"system\":\"NPM\",\"name\":\"user\"},\"owners\":[],\"version\":{\"version\":\"0.0.0\",\"symbolicVersions\":[\"latest\"],\"createdAt\":1390506327,\"refreshedAt\":1657954630,\"isDefault\":true,\"description\":\"users use your site\",\"licenses\":[\"MIT\"],\"dependentCount\":2421,\"dependentCountDirect\":2295,\"dependentCountIndirect\":129,\"links\":{\"origins\":[\"https://www.npmjs.com/package/user/v/0.0.0\"]},\"projects\":[],\"advisories\":[],\"relatedPackages\":{}},\"defaultVersion\":\"0.0.0\"}"
+      },
+      "reproducibility": "temporal",
+      "url": "https://deps.dev/_/s/npm/p/user/v/0.0.0"
+    },
+    "generator": {
+      "name": "openssf.omega.security_advisories",
+      "version": "0.1.0"
+    },
+    "operational": {
+      "environment": {
+        "hostname": "scovetta-xps",
+        "machine_identifier": "00000000-0000-0000-0000-cc96e5042f66"
+      },
+      "execution_start": "2022-11-18T22:06:15.681784Z",
+      "execution_stop": "2022-11-18T22:06:15.907297Z"
+    }
+  },
+  "predicateType": "https://github.com/ossf/alpha-omega/v0.1",
+  "subject": {
+    "purl": "pkg:npm/user",
+    "type": "https://github.com/ossf/alpha-omega/subject/package_url/v0.1"
+  }
+}

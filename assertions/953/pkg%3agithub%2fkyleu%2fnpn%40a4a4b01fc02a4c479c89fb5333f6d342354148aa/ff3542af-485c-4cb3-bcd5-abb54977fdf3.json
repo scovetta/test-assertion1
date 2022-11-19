@@ -1,0 +1,50 @@
+{
+  "_type": "https://in-toto.io/Statement/v0.1",
+  "predicate": {
+    "content": {
+      "scorecard_data": {
+        "binary_artifacts": "5",
+        "branch_protection": "0",
+        "cii_best_practices": "0",
+        "code_review": "0",
+        "dangerous_workflow": "10",
+        "dependency_update_tool": "0",
+        "fuzzing": "0",
+        "license": "10",
+        "maintained": "0",
+        "packaging": "-1",
+        "pinned_dependencies": "7",
+        "sast": "0",
+        "security_policy": "0",
+        "signed_releases": "0",
+        "token_permissions": "10",
+        "vulnerabilities": "10"
+      }
+    },
+    "evidence": {
+      "_type": "https://github.com/ossf/alpha-omega/types/evidence/file/v0.1",
+      "content": {
+        "output": "{\"date\":\"2022-10-31\",\"repo\":{\"name\":\"github.com/kyleu/npn\",\"commit\":\"a4a4b01fc02a4c479c89fb5333f6d342354148aa\"},\"scorecard\":{\"version\":\"v4.8.0-43-g0e3f81c\",\"commit\":\"0e3f81c880fa3f5e4fe3902dbe3c1d74c21c32f5\"},\"checks\":[{\"name\":\"Maintained\",\"documentation\":{\"short\":\"Determines if the project is \\\"actively maintained\\\".\",\"url\":\"https://github.com/ossf/scorecard/blob/0e3f81c880fa3f5e4fe3902dbe3c1d74c21c32f5/docs/checks.md#maintained\"},\"score\":\"0\",\"reason\":\"0 commit(s) out of 30 and 0 issue activity out of 0 found in the last 90 days -- score normalized to 0\",\"details\":[]},{\"name\":\"Code-Review\",\"documentation\":{\"short\":\"Determines if the project requires code review before pull requests (aka merge requests) are merged.\",\"url\":\"https://github.com/ossf/scorecard/blob/0e3f81c880fa3f5e4fe3902dbe3c1d74c21c32f5/docs/checks.md#code-review\"},\"score\":\"0\",\"reason\":\"0 out of last 30 changesets reviewed before merge -- score normalized to 0\",\"details\":[]},{\"name\":\"CII-Best-Practices\",\"documentation\":{\"short\":\"Determines if the project has an OpenSSF (formerly CII) Best Practices Badge.\",\"url\":\"https://github.com/ossf/scorecard/blob/0e3f81c880fa3f5e4fe3902dbe3c1d74c21c32f5/docs/checks.md#cii-best-practices\"},\"score\":\"0\",\"reason\":\"no badge detected\",\"details\":[]},{\"name\":\"Vulnerabilities\",\"documentation\":{\"short\":\"Determines if the project has open, known unfixed vulnerabilities.\",\"url\":\"https://github.com/ossf/scorecard/blob/0e3f81c880fa3f5e4fe3902dbe3c1d74c21c32f5/docs/checks.md#vulnerabilities\"},\"score\":\"10\",\"reason\":\"no vulnerabilities detected\",\"details\":[]},{\"name\":\"Signed-Releases\",\"documentation\":{\"short\":\"Determines if the project cryptographically signs release artifacts.\",\"url\":\"https://github.com/ossf/scorecard/blob/0e3f81c880fa3f5e4fe3902dbe3c1d74c21c32f5/docs/checks.md#signed-releases\"},\"score\":\"0\",\"reason\":\"0 out of 5 artifacts are signed or have provenance\",\"details\":[\"Warn: release artifact v0.1.2 does not have provenance: https://api.github.com/repos/kyleu/npn/releases/40107875\",\"Warn: release artifact v0.1.2 not signed: https://api.github.com/repos/kyleu/npn/releases/40107875\",\"Warn: release artifact v0.1.0 does not have provenance: https://api.github.com/repos/kyleu/npn/releases/40107059\",\"Warn: release artifact v0.1.0 not signed: https://api.github.com/repos/kyleu/npn/releases/40107059\",\"Warn: release artifact v0.0.3 does not have provenance: https://api.github.com/repos/kyleu/npn/releases/36520591\",\"Warn: release artifact v0.0.3 not signed: https://api.github.com/repos/kyleu/npn/releases/36520591\",\"Warn: release artifact v0.0.2 does not have provenance: https://api.github.com/repos/kyleu/npn/releases/34555236\",\"Warn: release artifact v0.0.2 not signed: https://api.github.com/repos/kyleu/npn/releases/34555236\",\"Warn: release artifact v0.0.1 does not have provenance: https://api.github.com/repos/kyleu/npn/releases/33599894\",\"Warn: release artifact v0.0.1 not signed: https://api.github.com/repos/kyleu/npn/releases/33599894\"]},{\"name\":\"Branch-Protection\",\"documentation\":{\"short\":\"Determines if the default and release branches are protected with GitHub's branch protection settings.\",\"url\":\"https://github.com/ossf/scorecard/blob/0e3f81c880fa3f5e4fe3902dbe3c1d74c21c32f5/docs/checks.md#branch-protection\"},\"score\":\"0\",\"reason\":\"branch protection not enabled on development/release branches\",\"details\":[\"Warn: branch protection not enabled for branch 'master'\"]},{\"name\":\"Packaging\",\"documentation\":{\"short\":\"Determines if the project is published as a package that others can easily download, install, easily update, and uninstall.\",\"url\":\"https://github.com/ossf/scorecard/blob/0e3f81c880fa3f5e4fe3902dbe3c1d74c21c32f5/docs/checks.md#packaging\"},\"score\":\"-1\",\"reason\":\"no published package detected\",\"details\":[\"Warn: no GitHub publishing workflow detected\"]},{\"name\":\"Token-Permissions\",\"documentation\":{\"short\":\"Determines if the project's workflows follow the principle of least privilege.\",\"url\":\"https://github.com/ossf/scorecard/blob/0e3f81c880fa3f5e4fe3902dbe3c1d74c21c32f5/docs/checks.md#token-permissions\"},\"score\":\"10\",\"reason\":\"tokens are read-only in GitHub workflows\",\"details\":[]},{\"name\":\"Dangerous-Workflow\",\"documentation\":{\"short\":\"Determines if the project's GitHub Action workflows avoid dangerous patterns.\",\"url\":\"https://github.com/ossf/scorecard/blob/0e3f81c880fa3f5e4fe3902dbe3c1d74c21c32f5/docs/checks.md#dangerous-workflow\"},\"score\":\"10\",\"reason\":\"no dangerous workflow patterns detected\",\"details\":[]},{\"name\":\"License\",\"documentation\":{\"short\":\"Determines if the project has defined a license.\",\"url\":\"https://github.com/ossf/scorecard/blob/0e3f81c880fa3f5e4fe3902dbe3c1d74c21c32f5/docs/checks.md#license\"},\"score\":\"10\",\"reason\":\"license file detected\",\"details\":[\"Info: : LICENSE.md:1\"]},{\"name\":\"SAST\",\"documentation\":{\"short\":\"Determines if the project uses static code analysis.\",\"url\":\"https://github.com/ossf/scorecard/blob/0e3f81c880fa3f5e4fe3902dbe3c1d74c21c32f5/docs/checks.md#sast\"},\"score\":\"0\",\"reason\":\"no SAST tool detected\",\"details\":[\"Warn: no pull requests merged into dev branch\",\"Warn: CodeQL tool not detected\"]},{\"name\":\"Security-Policy\",\"documentation\":{\"short\":\"Determines if the project has published a security policy.\",\"url\":\"https://github.com/ossf/scorecard/blob/0e3f81c880fa3f5e4fe3902dbe3c1d74c21c32f5/docs/checks.md#security-policy\"},\"score\":\"0\",\"reason\":\"security policy file not detected\",\"details\":[]},{\"name\":\"Binary-Artifacts\",\"documentation\":{\"short\":\"Determines if the project has generated executable (binary) artifacts in the source repository.\",\"url\":\"https://github.com/ossf/scorecard/blob/0e3f81c880fa3f5e4fe3902dbe3c1d74c21c32f5/docs/checks.md#binary-artifacts\"},\"score\":\"5\",\"reason\":\"binaries present in source code\",\"details\":[\"Warn: binary detected: projects/android/npn/gradle/wrapper/gradle-wrapper.jar:1\",\"Warn: binary detected: projects/webview/lib/windows/386/WebView2Loader.dll:1\",\"Warn: binary detected: projects/webview/lib/windows/386/webview.dll:1\",\"Warn: binary detected: projects/webview/lib/windows/amd64/WebView2Loader.dll:1\",\"Warn: binary detected: projects/webview/lib/windows/amd64/webview.dll:1\"]},{\"name\":\"Dependency-Update-Tool\",\"documentation\":{\"short\":\"Determines if the project uses a dependency update tool.\",\"url\":\"https://github.com/ossf/scorecard/blob/0e3f81c880fa3f5e4fe3902dbe3c1d74c21c32f5/docs/checks.md#dependency-update-tool\"},\"score\":\"0\",\"reason\":\"no update tool detected\",\"details\":[\"Warn: Config file not detected in source location for dependabot, renovatebot, Sonatype Lift, or\\n\\t\\t\\tPyUp (Python). We recommend setting this configuration in code so it can be easily verified by others.\"]},{\"name\":\"Fuzzing\",\"documentation\":{\"short\":\"Determines if the project uses fuzzing.\",\"url\":\"https://github.com/ossf/scorecard/blob/0e3f81c880fa3f5e4fe3902dbe3c1d74c21c32f5/docs/checks.md#fuzzing\"},\"score\":\"0\",\"reason\":\"project is not fuzzed\",\"details\":[]},{\"name\":\"Pinned-Dependencies\",\"documentation\":{\"short\":\"Determines if the project has declared and pinned the dependencies of its build process.\",\"url\":\"https://github.com/ossf/scorecard/blob/0e3f81c880fa3f5e4fe3902dbe3c1d74c21c32f5/docs/checks.md#pinned-dependencies\"},\"score\":\"7\",\"reason\":\"dependency not pinned by hash detected -- score normalized to 7\",\"details\":[\"Warn: containerImage not pinned by hash: Dockerfile:2: pin your Docker image by updating golang:alpine to golang:alpine@sha256:8558ae624304387d18694b9ea065cc9813dd4f7f9bd5073edb237541f2d0561b\",\"Warn: containerImage not pinned by hash: Dockerfile:35: pin your Docker image by updating alpine to alpine@sha256:bc41182d7ef5ffc53a40b044e725193bc10142a1243f395ee852a8d9730fc2ad\",\"Info: GitHub-owned GitHubActions are pinned\",\"Info: Third-party GitHubActions are pinned\",\"Info: no insecure (not pinned by hash) dependency downloads found in Dockerfiles\",\"Info: no insecure (not pinned by hash) dependency downloads found in shell scripts\"]}],\"metadata\":[],\"score\":3.7}\n"
+      },
+      "filename": "/tmp/omega-ik8nhdh2",
+      "reproducibility": "unknown"
+    },
+    "generator": {
+      "name": "openssf.omega.security_scorecards",
+      "version": "0.1.0"
+    },
+    "operational": {
+      "environment": {
+        "hostname": "scovetta-xps",
+        "machine_identifier": "00000000-0000-0000-0000-cc96e5042f66"
+      },
+      "execution_start": "2022-11-18T22:13:41.173100Z",
+      "execution_stop": "2022-11-18T22:13:41.173887Z"
+    }
+  },
+  "predicateType": "https://github.com/ossf/alpha-omega/v0.1",
+  "subject": {
+    "purl": "pkg:github/kyleu/npn@a4a4b01fc02a4c479c89fb5333f6d342354148aa",
+    "type": "https://github.com/ossf/alpha-omega/subject/package_url/v0.1"
+  }
+}

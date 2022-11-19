@@ -1,0 +1,33 @@
+{
+  "_type": "https://in-toto.io/Statement/v0.1",
+  "predicate": {
+    "content": {
+      "security_advisories": {}
+    },
+    "evidence": {
+      "_type": "https://github.com/ossf/alpha-omega/types/evidence/url/v0.1",
+      "content": {
+        "output": "{\"package\":{\"system\":\"NPM\",\"name\":\"minimist\"},\"owners\":[],\"version\":{\"version\":\"1.2.7\",\"symbolicVersions\":[\"latest\"],\"createdAt\":1665451312,\"refreshedAt\":1665451674,\"isDefault\":true,\"description\":\"parse argument options\",\"licenses\":[\"MIT\"],\"dependentCount\":416101,\"dependentCountDirect\":27507,\"dependentCountIndirect\":390964,\"links\":{\"origins\":[\"https://www.npmjs.com/package/minimist/v/1.2.7\"],\"homepage\":\"https://github.com/minimistjs/minimist\",\"issues\":\"https://github.com/minimistjs/minimist/issues\",\"repo\":\"https://github.com/minimistjs/minimist\"},\"projects\":[{\"type\":\"GITHUB\",\"name\":\"minimistjs/minimist\",\"observedAt\":1668607546,\"issues\":7,\"forks\":8,\"stars\":61,\"description\":\"parse argument options\",\"license\":\"non-standard\",\"link\":\"https://github.com/minimistjs/minimist\"}],\"advisories\":[],\"relatedPackages\":{}},\"defaultVersion\":\"1.2.7\"}"
+      },
+      "reproducibility": "temporal",
+      "url": "https://deps.dev/_/s/npm/p/minimist/v/1.2.7"
+    },
+    "generator": {
+      "name": "openssf.omega.security_advisories",
+      "version": "0.1.0"
+    },
+    "operational": {
+      "environment": {
+        "hostname": "scovetta-xps",
+        "machine_identifier": "00000000-0000-0000-0000-cc96e5042f66"
+      },
+      "execution_start": "2022-11-18T22:03:07.608269Z",
+      "execution_stop": "2022-11-18T22:03:07.906150Z"
+    }
+  },
+  "predicateType": "https://github.com/ossf/alpha-omega/v0.1",
+  "subject": {
+    "purl": "pkg:npm/minimist",
+    "type": "https://github.com/ossf/alpha-omega/subject/package_url/v0.1"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "_type": "https://in-toto.io/Statement/v0.1",
+  "predicate": {
+    "content": {
+      "security_advisories": {}
+    },
+    "evidence": {
+      "_type": "https://github.com/ossf/alpha-omega/types/evidence/url/v0.1",
+      "content": {
+        "output": "{\"package\":{\"system\":\"NPM\",\"name\":\"keypress\"},\"owners\":[],\"version\":{\"version\":\"0.2.1\",\"symbolicVersions\":[\"latest\"],\"createdAt\":1373086685,\"refreshedAt\":1654385925,\"isDefault\":true,\"description\":\"Make any Node ReadableStream emit \\\"keypress\\\" events\",\"licenses\":[\"MIT\"],\"dependentCount\":3517,\"dependentCountDirect\":608,\"dependentCountIndirect\":2919,\"links\":{\"origins\":[\"https://www.npmjs.com/package/keypress/v/0.2.1\"],\"issues\":\"https://github.com/TooTallNate/keypress/issues\",\"repo\":\"https://github.com/tootallnate/keypress\"},\"projects\":[{\"type\":\"GITHUB\",\"name\":\"TooTallNate/keypress\",\"observedAt\":1667322370,\"issues\":16,\"forks\":62,\"stars\":346,\"description\":\"Make any Node ReadableStream emit \\\"keypress\\\" events\",\"link\":\"https://github.com/TooTallNate/keypress\"}],\"advisories\":[],\"relatedPackages\":{}},\"defaultVersion\":\"0.2.1\"}"
+      },
+      "reproducibility": "temporal",
+      "url": "https://deps.dev/_/s/npm/p/keypress/v/0.2.1"
+    },
+    "generator": {
+      "name": "openssf.omega.security_advisories",
+      "version": "0.1.0"
+    },
+    "operational": {
+      "environment": {
+        "hostname": "scovetta-xps",
+        "machine_identifier": "00000000-0000-0000-0000-cc96e5042f66"
+      },
+      "execution_start": "2022-11-18T22:08:12.355268Z",
+      "execution_stop": "2022-11-18T22:08:12.638219Z"
+    }
+  },
+  "predicateType": "https://github.com/ossf/alpha-omega/v0.1",
+  "subject": {
+    "purl": "pkg:npm/keypress",
+    "type": "https://github.com/ossf/alpha-omega/subject/package_url/v0.1"
+  }
+}

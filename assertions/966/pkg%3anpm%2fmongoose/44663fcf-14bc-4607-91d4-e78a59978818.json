@@ -1,0 +1,33 @@
+{
+  "_type": "https://in-toto.io/Statement/v0.1",
+  "predicate": {
+    "content": {
+      "security_advisories": {}
+    },
+    "evidence": {
+      "_type": "https://github.com/ossf/alpha-omega/types/evidence/url/v0.1",
+      "content": {
+        "output": "{\"package\":{\"system\":\"NPM\",\"name\":\"mongoose\"},\"owners\":[],\"version\":{\"version\":\"6.7.2\",\"symbolicVersions\":[\"latest\"],\"createdAt\":1667841664,\"refreshedAt\":1667843577,\"isDefault\":true,\"description\":\"Mongoose MongoDB ODM\",\"licenses\":[\"MIT\"],\"dependentCount\":2560,\"dependentCountDirect\":2066,\"dependentCountIndirect\":546,\"links\":{\"origins\":[\"https://www.npmjs.com/package/mongoose/v/6.7.2\"],\"homepage\":\"https://mongoosejs.com\",\"issues\":\"https://github.com/Automattic/mongoose/issues/new\",\"repo\":\"https://github.com/automattic/mongoose\"},\"projects\":[{\"type\":\"GITHUB\",\"name\":\"Automattic/mongoose\",\"observedAt\":1667783874,\"issues\":306,\"forks\":3602,\"stars\":24941,\"description\":\"MongoDB object modeling designed to work in an asynchronous environment.\",\"license\":\"MIT\",\"link\":\"https://github.com/Automattic/mongoose\"}],\"advisories\":[],\"relatedPackages\":{}},\"defaultVersion\":\"6.7.2\"}"
+      },
+      "reproducibility": "temporal",
+      "url": "https://deps.dev/_/s/npm/p/mongoose/v/6.7.2"
+    },
+    "generator": {
+      "name": "openssf.omega.security_advisories",
+      "version": "0.1.0"
+    },
+    "operational": {
+      "environment": {
+        "hostname": "scovetta-xps",
+        "machine_identifier": "00000000-0000-0000-0000-cc96e5042f66"
+      },
+      "execution_start": "2022-11-18T22:03:31.187800Z",
+      "execution_stop": "2022-11-18T22:03:31.480529Z"
+    }
+  },
+  "predicateType": "https://github.com/ossf/alpha-omega/v0.1",
+  "subject": {
+    "purl": "pkg:npm/mongoose",
+    "type": "https://github.com/ossf/alpha-omega/subject/package_url/v0.1"
+  }
+}

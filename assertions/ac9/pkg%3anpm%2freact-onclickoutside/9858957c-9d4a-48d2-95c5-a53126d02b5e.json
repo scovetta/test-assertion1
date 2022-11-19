@@ -1,0 +1,33 @@
+{
+  "_type": "https://in-toto.io/Statement/v0.1",
+  "predicate": {
+    "content": {
+      "security_advisories": {}
+    },
+    "evidence": {
+      "_type": "https://github.com/ossf/alpha-omega/types/evidence/url/v0.1",
+      "content": {
+        "output": "{\"package\":{\"system\":\"NPM\",\"name\":\"react-onclickoutside\"},\"owners\":[],\"version\":{\"version\":\"6.12.2\",\"symbolicVersions\":[\"latest\"],\"createdAt\":1654718753,\"refreshedAt\":1657065757,\"isDefault\":true,\"description\":\"An onClickOutside wrapper for React components\",\"licenses\":[\"MIT\"],\"dependentCount\":2999,\"dependentCountDirect\":478,\"dependentCountIndirect\":2544,\"links\":{\"origins\":[\"https://www.npmjs.com/package/react-onclickoutside/v/6.12.2\"],\"homepage\":\"https://github.com/Pomax/react-onclickoutside\",\"issues\":\"https://github.com/Pomax/react-onclickoutside/issues\",\"repo\":\"https://github.com/pomax/react-onclickoutside\"},\"projects\":[{\"type\":\"GITHUB\",\"name\":\"Pomax/react-onclickoutside\",\"observedAt\":1667531203,\"issues\":76,\"forks\":195,\"stars\":1779,\"description\":\"An onClickOutside wrapper for React components\",\"license\":\"MIT\",\"link\":\"https://github.com/Pomax/react-onclickoutside\"}],\"advisories\":[],\"relatedPackages\":{}},\"defaultVersion\":\"6.12.2\"}"
+      },
+      "reproducibility": "temporal",
+      "url": "https://deps.dev/_/s/npm/p/react-onclickoutside/v/6.12.2"
+    },
+    "generator": {
+      "name": "openssf.omega.security_advisories",
+      "version": "0.1.0"
+    },
+    "operational": {
+      "environment": {
+        "hostname": "scovetta-xps",
+        "machine_identifier": "00000000-0000-0000-0000-cc96e5042f66"
+      },
+      "execution_start": "2022-11-18T22:08:53.025622Z",
+      "execution_stop": "2022-11-18T22:08:53.305748Z"
+    }
+  },
+  "predicateType": "https://github.com/ossf/alpha-omega/v0.1",
+  "subject": {
+    "purl": "pkg:npm/react-onclickoutside",
+    "type": "https://github.com/ossf/alpha-omega/subject/package_url/v0.1"
+  }
+}
